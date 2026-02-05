@@ -17,6 +17,13 @@ One-line quickstart:
 npm install && npm start
 ```
 
+## Docker
+
+```bash
+docker build -t brainaccelerator .
+docker run -p 3000:3000 brainaccelerator
+```
+
 ## Modes
 
 - Focus Run (60s): mixed math + memory
