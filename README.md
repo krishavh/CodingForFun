@@ -11,6 +11,12 @@ npm start
 
 Open `http://localhost:3000`.
 
+One-line quickstart:
+
+```bash
+npm install && npm start
+```
+
 ## Modes
 
 - Focus Run (60s): mixed math + memory
