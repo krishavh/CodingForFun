@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrainAccelerator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orbit"></div>
+    <div class="bg-grid"></div>
+
+    <main class="app">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">BrainAccelerator</p>
+          <h1>Build focus and memory through fast, mixed challenges.</h1>
+          <p class="subtitle">
+            A research-inspired game loop that blends math fluency, short-term recall, and
+            intentional pacing. Play a 60-second sprint and climb the community leaderboard.
+          </p>
+        </div>
+        <div class="hero-card">
+          <div class="metric">
+            <span>Mode</span>
+            <strong>Focus Run</strong>
+          </div>
+          <div class="metric">
+            <span>Session</span>
+            <strong>60 seconds</strong>
+          </div>
+          <div class="metric">
+            <span>Challenges</span>
+            <strong>Math + Memory</strong>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div class="panel-left">
+          <h2>Start a Run</h2>
+          <p class="panel-copy">
+            Each round alternates between rapid math and short memory recall. Consistency and
+            accuracy boost your score, but rushing adds mistakes. Stay calm, stay focused.
+          </p>
+          <label class="input">
+            <span>Player name</span>
+            <input id="playerName" type="text" maxlength="24" placeholder="Your name" />
+          </label>
+          <label class="input">
+            <span>Mode</span>
+            <select id="modeSelect"></select>
+          </label>
+          <button id="startBtn" class="cta">Start 60s Run</button>
+          <div id="status" class="status">Ready when you are.</div>
+          <div class="streak">
+            <div>
+              <span>Current streak</span>
+              <strong id="streakCount">0 days</strong>
+            </div>
+            <div>
+              <span>Best streak</span>
+              <strong id="bestStreak">0 days</strong>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="plan-header">
+              <span>Daily practice plan</span>
+              <strong id="planDate">Today</strong>
+            </div>
+            <ul id="planList"></ul>
+          </div>
+        </div>
+
+        <div class="panel-right">
+          <div class="game" id="gameArea">
+            <div class="game-top">
+              <div class="badge" id="roundLabel">Round 1</div>
+              <div class="badge" id="timerLabel">60s</div>
+              <div class="badge" id="scoreLabel">Score 0</div>
+            </div>
+
+            <div class="challenge" id="challengeArea">
+              <p class="challenge-type" id="challengeType">Press Start</p>
+              <div class="challenge-content" id="challengeContent">You got this.</div>
+            </div>
+
+            <div class="response">
+              <input id="answerInput" type="text" placeholder="Type answer" disabled />
+              <button id="submitBtn" disabled>Submit</button>
+            </div>
+
+            <div class="hint" id="hint">Focus on accuracy first. Speed will come.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel leaderboard">
+        <div class="panel-left">
+          <h2>Community Top Scores</h2>
+          <p class="panel-copy">Top 10 runs from the global community.</p>
+        </div>
+        <div class="panel-right">
+          <ol id="leaderboard" class="scores"></ol>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
