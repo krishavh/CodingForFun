@@ -181,6 +181,33 @@ body {
   color: rgba(247, 200, 110, 0.9);
 }
 
+.network {
+  margin-top: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.85rem;
+}
+
+.network span {
+  color: rgba(223, 231, 247, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+}
+
+.network strong {
+  color: var(--aura);
+}
+
+.network.offline strong {
+  color: #ff9b73;
+}
+
 .streak {
   margin-top: 16px;
   padding: 12px 14px;

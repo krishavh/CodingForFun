@@ -15,6 +15,8 @@ const streakCount = document.getElementById("streakCount");
 const bestStreak = document.getElementById("bestStreak");
 const planList = document.getElementById("planList");
 const planDate = document.getElementById("planDate");
+const networkStatus = document.getElementById("networkStatus");
+const networkBadge = document.querySelector(".network");
 
 let gameActive = false;
 let timeLeft = 60;
@@ -37,6 +39,16 @@ function updateLabels() {
 
 function setStatus(message) {
   statusEl.textContent = message;
+}
+
+function setNetworkStatus(isOnline) {
+  if (isOnline) {
+    networkStatus.textContent = "Online";
+    networkBadge.classList.remove("offline");
+  } else {
+    networkStatus.textContent = "Offline";
+    networkBadge.classList.add("offline");
+  }
 }
 
 function setChallenge(type, content) {
@@ -174,6 +186,7 @@ async function postScore() {
   if (!backendAvailable) {
     saveLocalScore(name);
     setStatus("Saved locally. Add a backend to share globally.");
+    setNetworkStatus(false);
     await loadLocalScores();
     await loadLocalProfile();
     await loadLocalPlan();
@@ -189,6 +202,7 @@ async function postScore() {
     if (res.ok) {
       const payload = await res.json();
       setStatus("Score saved to the community board.");
+      setNetworkStatus(true);
       if (payload && typeof payload.streak === "number") {
         streakCount.textContent = `${payload.streak} days`;
         bestStreak.textContent = `${payload.best_streak} days`;
@@ -200,6 +214,7 @@ async function postScore() {
     }
   } catch (err) {
     setStatus("Network error while saving score.");
+    setNetworkStatus(false);
   }
 }
 
@@ -272,9 +287,11 @@ async function loadModes() {
       startBtn.textContent = `Start ${activeMode.durationSec}s Run`;
     }
     await loadScores();
+    setNetworkStatus(true);
   } catch (err) {
     backendAvailable = false;
     setStatus("Backend unavailable. Running offline mode.");
+    setNetworkStatus(false);
     modes = [
       { key: "focus-run", label: "Focus Run", durationSec: 60, memoryBase: 4, memoryMax: 8, mathMax: 30, flashMs: 2000 },
       { key: "deep-focus", label: "Deep Focus", durationSec: 180, memoryBase: 5, memoryMax: 10, mathMax: 40, flashMs: 2600 },
@@ -476,3 +493,4 @@ playerNameInput.addEventListener("change", loadPlan);
 
 loadModes();
 updateLabels();
+setNetworkStatus(true);
