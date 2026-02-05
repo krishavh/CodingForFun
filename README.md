@@ -24,6 +24,11 @@ docker build -t brainaccelerator .
 docker run -p 3000:3000 brainaccelerator
 ```
 
+## GitHub Pages (frontend-only)
+
+GitHub Pages can host the game UI, but it cannot run the Node/SQLite backend.
+In Pages mode, scores and streaks are stored locally in your browser.
+
 ## Modes
 
 - Focus Run (60s): mixed math + memory

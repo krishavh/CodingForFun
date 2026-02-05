@@ -27,6 +27,7 @@ let timerId = null;
 
 let modes = [];
 let activeMode = null;
+let backendAvailable = true;
 
 function updateLabels() {
   roundLabel.textContent = `Round ${round}`;
@@ -170,6 +171,14 @@ function startGame() {
 async function postScore() {
   const name = playerNameInput.value.trim();
   if (!name) return;
+  if (!backendAvailable) {
+    saveLocalScore(name);
+    setStatus("Saved locally. Add a backend to share globally.");
+    await loadLocalScores();
+    await loadLocalProfile();
+    await loadLocalPlan();
+    return;
+  }
   try {
     const res = await fetch("/api/scores", {
       method: "POST",
@@ -196,6 +205,10 @@ async function postScore() {
 
 async function loadScores() {
   leaderboard.innerHTML = "<li>Loading...</li>";
+  if (!backendAvailable) {
+    await loadLocalScores();
+    return;
+  }
   try {
     const modeKey = activeMode ? activeMode.key : "focus-run";
     const res = await fetch(`/api/scores?mode=${encodeURIComponent(modeKey)}&limit=10`);
@@ -260,12 +273,33 @@ async function loadModes() {
     }
     await loadScores();
   } catch (err) {
-    setStatus("Modes unavailable. Using default.");
-    activeMode = { key: "focus-run", durationSec: 60 };
+    backendAvailable = false;
+    setStatus("Backend unavailable. Running offline mode.");
+    modes = [
+      { key: "focus-run", label: "Focus Run", durationSec: 60, memoryBase: 4, memoryMax: 8, mathMax: 30, flashMs: 2000 },
+      { key: "deep-focus", label: "Deep Focus", durationSec: 180, memoryBase: 5, memoryMax: 10, mathMax: 40, flashMs: 2600 },
+      { key: "recall-ladder", label: "Recall Ladder", durationSec: 90, memoryBase: 5, memoryMax: 12, mathMax: 26, flashMs: 1800 }
+    ];
+    modeSelect.innerHTML = "";
+    modes.forEach((mode) => {
+      const option = document.createElement("option");
+      option.value = mode.key;
+      option.textContent = `${mode.label} (${mode.durationSec}s)`;
+      modeSelect.appendChild(option);
+    });
+    activeMode = modes[0];
+    startBtn.textContent = `Start ${activeMode.durationSec}s Run`;
+    await loadLocalScores();
+    await loadLocalProfile();
+    await loadLocalPlan();
   }
 }
 
 async function loadProfile() {
+  if (!backendAvailable) {
+    await loadLocalProfile();
+    return;
+  }
   const name = playerNameInput.value.trim();
   if (!name) {
     streakCount.textContent = "0 days";
@@ -286,6 +320,10 @@ async function loadProfile() {
 }
 
 async function loadPlan() {
+  if (!backendAvailable) {
+    await loadLocalPlan();
+    return;
+  }
   const name = playerNameInput.value.trim();
   if (!name) return;
   try {
@@ -306,6 +344,129 @@ async function loadPlan() {
   } catch (err) {
     planList.innerHTML = "<li>Plan unavailable.</li>";
   }
+}
+
+function localKey(name, modeKey) {
+  return `brainaccelerator:${name}:${modeKey}`;
+}
+
+function readLocalScores(name, modeKey) {
+  const raw = localStorage.getItem(localKey(name, modeKey));
+  if (!raw) return [];
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
+
+function writeLocalScores(name, modeKey, scores) {
+  localStorage.setItem(localKey(name, modeKey), JSON.stringify(scores));
+}
+
+function saveLocalScore(name) {
+  const modeKey = activeMode ? activeMode.key : "focus-run";
+  const scores = readLocalScores(name, modeKey);
+  scores.push({ name, score, created_at: new Date().toISOString() });
+  scores.sort((a, b) => b.score - a.score);
+  writeLocalScores(name, modeKey, scores.slice(0, 20));
+
+  const profileKey = `brainaccelerator:profile:${name}`;
+  const todayKey = new Date().toISOString().slice(0, 10);
+  const profile = JSON.parse(localStorage.getItem(profileKey) || "{}");
+  const lastPractice = profile.last_practice_date;
+  let nextStreak = profile.streak_count || 0;
+  let bestStreak = profile.best_streak || 0;
+
+  if (!lastPractice) {
+    nextStreak = 1;
+  } else if (lastPractice === todayKey) {
+    // keep streak
+  } else {
+    const lastDate = new Date(`${lastPractice}T00:00:00Z`);
+    const todayDate = new Date(`${todayKey}T00:00:00Z`);
+    const diffDays = Math.round((todayDate - lastDate) / 86400000);
+    if (diffDays === 1) {
+      nextStreak += 1;
+    } else {
+      nextStreak = 1;
+    }
+  }
+
+  if (nextStreak > bestStreak) {
+    bestStreak = nextStreak;
+  }
+
+  localStorage.setItem(
+    profileKey,
+    JSON.stringify({
+      streak_count: nextStreak,
+      best_streak: bestStreak,
+      last_practice_date: todayKey
+    })
+  );
+}
+
+async function loadLocalScores() {
+  const name = playerNameInput.value.trim() || "local";
+  const modeKey = activeMode ? activeMode.key : "focus-run";
+  const scores = readLocalScores(name, modeKey);
+  leaderboard.innerHTML = "";
+  if (!scores.length) {
+    leaderboard.innerHTML = "<li>No local scores yet.</li>";
+    return;
+  }
+  scores.slice(0, 10).forEach((row, index) => {
+    const item = document.createElement("li");
+    const nameEl = document.createElement("strong");
+    const meta = document.createElement("span");
+    nameEl.textContent = `${index + 1}. ${row.name}`;
+    meta.textContent = row.score;
+    item.appendChild(nameEl);
+    item.appendChild(meta);
+    leaderboard.appendChild(item);
+  });
+}
+
+async function loadLocalProfile() {
+  const name = playerNameInput.value.trim();
+  if (!name) {
+    streakCount.textContent = "0 days";
+    bestStreak.textContent = "0 days";
+    return;
+  }
+  const profileKey = `brainaccelerator:profile:${name}`;
+  const profile = JSON.parse(localStorage.getItem(profileKey) || "{}");
+  streakCount.textContent = `${profile.streak_count || 0} days`;
+  bestStreak.textContent = `${profile.best_streak || 0} days`;
+}
+
+async function loadLocalPlan() {
+  const name = playerNameInput.value.trim();
+  if (!name) return;
+  const profileKey = `brainaccelerator:profile:${name}`;
+  const profile = JSON.parse(localStorage.getItem(profileKey) || "{}");
+  const streak = profile.streak_count || 0;
+  const todayKey = new Date().toISOString().slice(0, 10);
+  planDate.textContent = todayKey;
+  planList.innerHTML = "";
+  const tasks = [
+    { label: "Focus Run", reason: "Warm up attention and accuracy.", goal: "1 session" },
+    { label: "Recall Ladder", reason: "Strengthen short-term recall.", goal: "1 session" }
+  ];
+  if (streak >= 3) {
+    tasks.push({ label: "Deep Focus", reason: "Build sustained focus endurance.", goal: "1 session" });
+  }
+  tasks.forEach((task) => {
+    const item = document.createElement("li");
+    const left = document.createElement("span");
+    const right = document.createElement("strong");
+    left.textContent = `${task.label} · ${task.reason}`;
+    right.textContent = task.goal;
+    item.appendChild(left);
+    item.appendChild(right);
+    planList.appendChild(item);
+  });
 }
 
 playerNameInput.addEventListener("blur", loadProfile);
