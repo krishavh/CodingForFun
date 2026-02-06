@@ -409,6 +409,18 @@ body {
   font-family: "IBM Plex Mono", monospace;
 }
 
+.mini-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--aura);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.mini-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 960px) {
   .hero,
   .panel {
