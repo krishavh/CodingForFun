@@ -360,6 +360,30 @@ body {
   font-size: 0.9rem;
 }
 
+.stats {
+  margin-top: 6px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stats span {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(223, 231, 247, 0.6);
+}
+
+.stats strong {
+  font-size: 1.05rem;
+  color: #fff;
+}
+
 .leaderboard {
   align-items: center;
 }

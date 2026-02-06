@@ -17,6 +17,9 @@ const planList = document.getElementById("planList");
 const planDate = document.getElementById("planDate");
 const networkStatus = document.getElementById("networkStatus");
 const networkBadge = document.querySelector(".network");
+const accuracyStat = document.getElementById("accuracyStat");
+const responseStat = document.getElementById("responseStat");
+const weakestStat = document.getElementById("weakestStat");
 
 let gameActive = false;
 let timeLeft = 60;
@@ -26,6 +29,14 @@ let streak = 0;
 let expectedAnswer = "";
 let challengeIndex = 0;
 let timerId = null;
+let lastChallengeAt = null;
+let totalAttempts = 0;
+let correctAttempts = 0;
+let mathAttempts = 0;
+let mathCorrect = 0;
+let memoryAttempts = 0;
+let memoryCorrect = 0;
+let responseTimes = [];
 
 let modes = [];
 let activeMode = null;
@@ -35,6 +46,27 @@ function updateLabels() {
   roundLabel.textContent = `Round ${round}`;
   timerLabel.textContent = `${timeLeft}s`;
   scoreLabel.textContent = `Score ${score}`;
+}
+
+function updateStats() {
+  const accuracy = totalAttempts ? Math.round((correctAttempts / totalAttempts) * 100) : 0;
+  accuracyStat.textContent = `${accuracy}%`;
+  if (responseTimes.length) {
+    const avg = responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length;
+    responseStat.textContent = `${avg.toFixed(1)}s`;
+  } else {
+    responseStat.textContent = "--";
+  }
+
+  const mathRate = mathAttempts ? mathCorrect / mathAttempts : 1;
+  const memoryRate = memoryAttempts ? memoryCorrect / memoryAttempts : 1;
+  if (!mathAttempts && !memoryAttempts) {
+    weakestStat.textContent = "--";
+  } else if (mathRate === memoryRate) {
+    weakestStat.textContent = "Balanced";
+  } else {
+    weakestStat.textContent = mathRate < memoryRate ? "Math" : "Memory";
+  }
 }
 
 function setStatus(message) {
@@ -88,6 +120,7 @@ function nextChallenge() {
   answerInput.value = "";
   answerInput.disabled = false;
   submitBtn.disabled = false;
+  lastChallengeAt = Date.now();
 
   if (challengeIndex % 2 === 0) {
     const { prompt, answer } = generateMath();
@@ -108,6 +141,7 @@ function nextChallenge() {
       setChallenge("Memory Flash", "Type the sequence");
       answerInput.disabled = false;
       submitBtn.disabled = false;
+      lastChallengeAt = Date.now();
       answerInput.focus();
     }, flashMs);
   }
@@ -120,6 +154,18 @@ function evaluateAnswer() {
   if (!gameActive) return;
   const response = answerInput.value.trim();
   const correct = response === expectedAnswer;
+  const responseTime = lastChallengeAt ? (Date.now() - lastChallengeAt) / 1000 : null;
+  if (responseTime !== null && Number.isFinite(responseTime)) {
+    responseTimes.push(responseTime);
+  }
+
+  totalAttempts += 1;
+  const isMath = challengeIndex % 2 === 1;
+  if (isMath) {
+    mathAttempts += 1;
+  } else {
+    memoryAttempts += 1;
+  }
 
   if (correct) {
     streak += 1;
@@ -127,6 +173,12 @@ function evaluateAnswer() {
     const bonus = Math.min(20, streak * 2);
     score += base + bonus;
     setStatus(`Nice! Streak ${streak}. +${base + bonus} points.`);
+    correctAttempts += 1;
+    if (isMath) {
+      mathCorrect += 1;
+    } else {
+      memoryCorrect += 1;
+    }
   } else {
     streak = 0;
     setStatus("Reset. Accuracy first, then speed.");
@@ -134,6 +186,7 @@ function evaluateAnswer() {
 
   round += 1;
   updateLabels();
+  updateStats();
   nextChallenge();
 }
 
@@ -172,6 +225,14 @@ function startGame() {
   score = 0;
   streak = 0;
   challengeIndex = 0;
+  totalAttempts = 0;
+  correctAttempts = 0;
+  mathAttempts = 0;
+  mathCorrect = 0;
+  memoryAttempts = 0;
+  memoryCorrect = 0;
+  responseTimes = [];
+  updateStats();
   updateLabels();
   setStatus("Focus on calm + accuracy. Go!");
   nextChallenge();
@@ -494,3 +555,4 @@ playerNameInput.addEventListener("change", loadPlan);
 loadModes();
 updateLabels();
 setNetworkStatus(true);
+updateStats();
