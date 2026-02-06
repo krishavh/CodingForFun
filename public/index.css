@@ -3,9 +3,9 @@
 :root {
   --ink: #0a0f1f;
   --night: #0e1324;
-  --aura: #67f7d4;
-  --pulse: #f7c86e;
-  --sky: #88b4ff;
+  --aura: #ffb347;
+  --pulse: #ff8a3d;
+  --sky: #ffd08a;
   --fog: #dfe7f7;
   --card: rgba(18, 24, 46, 0.82);
   --glass: rgba(255, 255, 255, 0.06);
@@ -20,7 +20,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(circle at top, #1a2344 0%, #0b0f1f 55%, #070a14 100%);
+  background: radial-gradient(circle at top, #3b200f 0%, #1a0f08 55%, #0b0603 100%);
   color: var(--fog);
   font-family: "Space Grotesk", system-ui, sans-serif;
 }
@@ -30,7 +30,7 @@ body {
   inset: -40vh -20vw auto auto;
   width: 80vh;
   height: 80vh;
-  background: radial-gradient(circle, rgba(103, 247, 212, 0.2), transparent 70%);
+  background: radial-gradient(circle, rgba(255, 179, 71, 0.25), transparent 70%);
   opacity: 0.8;
   pointer-events: none;
 }
