@@ -3,129 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BrainAccelerator</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Krishavh Labs</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="bg-orbit"></div>
     <div class="bg-grid"></div>
 
-    <main class="app">
+    <main class="wrap">
       <header class="hero">
-        <div>
-          <p class="eyebrow">BrainAccelerator</p>
-          <h1>Build focus and memory through fast, mixed challenges.</h1>
-          <p class="subtitle">
-            A research-inspired game loop that blends math fluency, short-term recall, and
-            intentional pacing. Play a 60-second sprint and climb the community leaderboard.
-          </p>
-        </div>
-        <div class="hero-card">
-          <div class="metric">
-            <span>Mode</span>
-            <strong>Focus Run</strong>
-          </div>
-          <div class="metric">
-            <span>Session</span>
-            <strong>60 seconds</strong>
-          </div>
-          <div class="metric">
-            <span>Challenges</span>
-            <strong>Math + Memory</strong>
-          </div>
-        </div>
+        <p class="eyebrow">Project Hub</p>
+        <h1>Krishavh Labs</h1>
+        <p class="subtitle">
+          A growing collection of experiments, games, and brain-training tools.
+        </p>
       </header>
 
-      <section class="panel">
-        <div class="panel-left">
-          <h2>Start a Run</h2>
-          <p class="panel-copy">
-            Each round alternates between rapid math and short memory recall. Consistency and
-            accuracy boost your score, but rushing adds mistakes. Stay calm, stay focused.
+      <section class="cards">
+        <article class="card">
+          <h2>BrainAccelerator</h2>
+          <p>
+            Focus + memory training with math sprints, recall flashes, and a community
+            leaderboard (online) or local mode (Pages).
           </p>
-          <label class="input">
-            <span>Player name</span>
-            <input id="playerName" type="text" maxlength="24" placeholder="Your name" />
-          </label>
-          <label class="input">
-            <span>Mode</span>
-            <select id="modeSelect"></select>
-          </label>
-          <button id="startBtn" class="cta">Start 60s Run</button>
-          <div class="network">
-            <span>Status</span>
-            <strong id="networkStatus">Online</strong>
+          <div class="meta">
+            <span>Focus</span>
+            <span>Memory</span>
+            <span>Leaderboard</span>
           </div>
-          <div id="status" class="status">Ready when you are.</div>
-          <div class="streak">
-            <div>
-              <span>Current streak</span>
-              <strong id="streakCount">0 days</strong>
-            </div>
-            <div>
-              <span>Best streak</span>
-              <strong id="bestStreak">0 days</strong>
-            </div>
+          <a class="cta" href="brainaccelerator.html">Launch BrainAccelerator</a>
+        </article>
+
+        <article class="card">
+          <h2>Focus Dash</h2>
+          <p>
+            A 45-second timing game. Hit the focus zone to build streaks and push
+            your score higher.
+          </p>
+          <div class="meta">
+            <span>Timing</span>
+            <span>Reflex</span>
+            <span>Streaks</span>
           </div>
-          <div class="plan">
-            <div class="plan-header">
-              <span>Daily practice plan</span>
-              <strong id="planDate">Today</strong>
-            </div>
-            <ul id="planList"></ul>
+          <a class="cta" href="focus-dash.html">Play Focus Dash</a>
+        </article>
+
+        <article class="card ghost">
+          <h2>What’s next?</h2>
+          <p>
+            More daily challenges, guided practice, and community features are on the way.
+          </p>
+          <div class="meta">
+            <span>Daily</span>
+            <span>Guided</span>
+            <span>Community</span>
           </div>
-        </div>
-
-        <div class="panel-right">
-          <div class="game" id="gameArea">
-            <div class="game-top">
-              <div class="badge" id="roundLabel">Round 1</div>
-              <div class="badge" id="timerLabel">60s</div>
-              <div class="badge" id="scoreLabel">Score 0</div>
-            </div>
-
-            <div class="challenge" id="challengeArea">
-              <p class="challenge-type" id="challengeType">Press Start</p>
-              <div class="challenge-content" id="challengeContent">You got this.</div>
-            </div>
-
-            <div class="response">
-              <input id="answerInput" type="text" placeholder="Type answer" disabled />
-              <button id="submitBtn" disabled>Submit</button>
-            </div>
-
-            <div class="hint" id="hint">Focus on accuracy first. Speed will come.</div>
-
-            <div class="stats">
-              <div>
-                <span>Accuracy</span>
-                <strong id="accuracyStat">0%</strong>
-              </div>
-              <div>
-                <span>Avg Response</span>
-                <strong id="responseStat">--</strong>
-              </div>
-              <div>
-                <span>Weakest Area</span>
-                <strong id="weakestStat">--</strong>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="panel leaderboard">
-        <div class="panel-left">
-          <h2>Community Top Scores</h2>
-          <p class="panel-copy">Top 10 runs from the global community.</p>
-          <a class="mini-link" href="focus-dash.html">Try today’s mini game: Focus Dash</a>
-        </div>
-        <div class="panel-right">
-          <ol id="leaderboard" class="scores"></ol>
-        </div>
+          <span class="cta muted">Coming soon</span>
+        </article>
       </section>
     </main>
-
-    <script src="app.js"></script>
   </body>
 </html>
