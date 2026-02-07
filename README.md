@@ -44,6 +44,15 @@ Enter your name to see a daily practice plan and streak tracking. The backend up
 - `server.js` Express + SQLite API for scores, profiles, streaks
 - `public/` Web game UI
 - `data/` Local SQLite database (auto-created)
+- `terminal/` Terminal game (Dungeon Dash)
+
+## Terminal game
+
+Dungeon Dash is a tiny turn-based roguelike you can play in the terminal.
+
+```bash
+python3 terminal/dungeon_dash.py
+```
 
 ## Next ideas
 
