@@ -2,3 +2,4 @@ node_modules
 .DS_Store
 data/*.sqlite
 terminal/.scores.json
+terminal/daily/cron.log

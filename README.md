@@ -59,3 +59,10 @@ python3 terminal/dungeon_dash.py
 - Add daily practice schedules with spaced repetition
 - Add multiple modes (longer sessions, adaptive difficulty)
 - Add accounts and anti-cheat validation
+
+## Daily Terminal Drops
+
+<!-- DAILY_DROP_START -->
+Latest: 2026-02-07 — Silent Cipher: Word Forge (`terminal/daily/2026_02_07_silent_cipher.py`)
+See `terminal/daily/LOG.md` for history.
+<!-- DAILY_DROP_END -->
