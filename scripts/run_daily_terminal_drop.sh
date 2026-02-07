@@ -5,8 +5,10 @@ export TZ=America/Los_Angeles
 export GIT_SSH_COMMAND="ssh -i /home/onikita/.ssh/id_ed25519 -o IdentitiesOnly=yes"
 
 # Random delay between 0 and 3599 seconds to land between 6-7am LA time.
-SLEEP_FOR=$((RANDOM % 3600))
-sleep "$SLEEP_FOR"
+if [[ "${SKIP_SLEEP:-}" != "1" ]]; then
+  SLEEP_FOR=$((RANDOM % 3600))
+  sleep "$SLEEP_FOR"
+fi
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"

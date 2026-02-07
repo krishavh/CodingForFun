@@ -24,6 +24,7 @@
         <article class="card">
           <h2>Daily Terminal Drop</h2>
           <p>Silent Cipher: Word Forge — 2026-02-07. Fresh terminal game released each morning.</p>
+          <p class="daily-date">Created: <time datetime="2026-02-07">2026-02-07</time></p>
           <div class="meta">
             <span>Terminal</span>
             <span>Daily</span>
@@ -73,6 +74,65 @@
           <span class="cta muted">Coming soon</span>
         </article>
       </section>
+
+      <section class="daily-log">
+        <div class="daily-header">
+          <h2>Daily Drops Archive</h2>
+          <div class="daily-controls">
+            <button class="sort-btn active" data-sort="desc">Newest</button>
+            <button class="sort-btn" data-sort="asc">Oldest</button>
+          </div>
+        </div>
+        <ul class="daily-entries" id="daily-entries"></ul>
+      </section>
     </main>
+
+    <script>
+      const entryList = document.getElementById("daily-entries");
+      const sortButtons = Array.from(document.querySelectorAll(".sort-btn"));
+      let entries = [];
+      let sortOrder = "desc";
+
+      const renderEntries = () => {
+        if (!entryList) return;
+        entryList.innerHTML = "";
+        const sorted = [...entries].sort((a, b) => {
+          if (sortOrder === "asc") return a.date.localeCompare(b.date);
+          return b.date.localeCompare(a.date);
+        });
+        sorted.forEach((entry) => {
+          const li = document.createElement("li");
+          li.className = "daily-entry";
+          li.innerHTML = `
+            <div>
+              <h3>${entry.title}</h3>
+              <time datetime="${entry.date}">${entry.date}</time>
+            </div>
+            <a class="cta small" href="${entry.public_file}">Open</a>
+          `;
+          entryList.appendChild(li);
+        });
+      };
+
+      sortButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          sortOrder = btn.dataset.sort || "desc";
+          sortButtons.forEach((b) => b.classList.toggle("active", b === btn));
+          renderEntries();
+        });
+      });
+
+      fetch("daily/index.json")
+        .then((resp) => resp.json())
+        .then((data) => {
+          entries = Array.isArray(data) ? data : [];
+          renderEntries();
+        })
+        .catch(() => {
+          if (entryList) {
+            entryList.innerHTML = "<li class=\"daily-entry\">No archive yet.</li>";
+          }
+        });
+    </script>
   </body>
 </html>

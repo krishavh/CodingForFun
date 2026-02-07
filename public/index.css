@@ -107,6 +107,13 @@ body {
   color: rgba(223, 231, 247, 0.75);
 }
 
+.daily-date {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  color: rgba(223, 231, 247, 0.6);
+}
+
 .meta {
   display: flex;
   gap: 10px;
@@ -130,6 +137,11 @@ body {
   text-align: center;
 }
 
+.cta.small {
+  padding: 8px 14px;
+  font-size: 0.85rem;
+}
+
 .cta.muted {
   background: rgba(255, 255, 255, 0.08);
   color: rgba(223, 231, 247, 0.6);
@@ -137,4 +149,77 @@ body {
 
 .ghost {
   border-style: dashed;
+}
+
+.daily-log {
+  margin-top: 20px;
+  padding: 28px;
+  border-radius: 20px;
+  background: rgba(18, 24, 46, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 18px 32px var(--shadow);
+}
+
+.daily-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.daily-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.daily-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.sort-btn {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: rgba(223, 231, 247, 0.8);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-family: "IBM Plex Mono", monospace;
+  cursor: pointer;
+}
+
+.sort-btn.active {
+  background: rgba(255, 179, 71, 0.2);
+  border-color: rgba(255, 179, 71, 0.6);
+  color: #fff;
+}
+
+.daily-entries {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+  display: grid;
+  gap: 14px;
+}
+
+.daily-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(10, 15, 31, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.daily-entry h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.daily-entry time {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  color: rgba(223, 231, 247, 0.6);
 }

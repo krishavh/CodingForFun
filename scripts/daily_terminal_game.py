@@ -10,7 +10,9 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DAILY_DIR = os.path.join(ROOT, "terminal", "daily")
 LOG_PATH = os.path.join(DAILY_DIR, "LOG.md")
 LATEST_PATH = os.path.join(DAILY_DIR, ".latest.json")
+INDEX_JSON_PATH = os.path.join(DAILY_DIR, "index.json")
 PUBLIC_DAILY_PATH = os.path.join(ROOT, "public", "daily.json")
+PUBLIC_DAILY_INDEX_PATH = os.path.join(ROOT, "public", "daily", "index.json")
 README_PATH = os.path.join(ROOT, "README.md")
 INDEX_PATH = os.path.join(ROOT, "public", "index.html")
 PUBLIC_DAILY_DIR = os.path.join(ROOT, "public", "daily")
@@ -294,6 +296,7 @@ def update_index(date_str, title, rel_path):
         "        <article class=\"card\">\n"
         "          <h2>Daily Terminal Drop</h2>\n"
         f"          <p>{title} — {date_str}. Fresh terminal game released each morning.</p>\n"
+        f"          <p class=\"daily-date\">Created: <time datetime=\"{date_str}\">{date_str}</time></p>\n"
         "          <div class=\"meta\">\n"
         "            <span>Terminal</span>\n"
         "            <span>Daily</span>\n"
@@ -326,6 +329,34 @@ def update_index(date_str, title, rel_path):
 
     with open(INDEX_PATH, "w", encoding="utf-8") as f:
         f.write(new_text)
+
+
+def update_index_json(date_str, title, rel_path, public_rel_path):
+    entry = {
+        "date": date_str,
+        "title": title,
+        "file": rel_path,
+        "public_file": public_rel_path,
+    }
+    data = []
+    if os.path.exists(INDEX_JSON_PATH):
+        try:
+            with open(INDEX_JSON_PATH, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            data = []
+
+    if not any(item.get("date") == date_str for item in data):
+        data.append(entry)
+
+    data = sorted(data, key=lambda item: item.get("date", ""), reverse=True)
+
+    with open(INDEX_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+    os.makedirs(PUBLIC_DAILY_DIR, exist_ok=True)
+    with open(PUBLIC_DAILY_INDEX_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
 
 
 def main():
@@ -371,6 +402,7 @@ def main():
     update_log(date_str, game_name, rel_path)
     update_readme(date_str, game_name, rel_path)
     update_index(date_str, game_name, public_rel_path)
+    update_index_json(date_str, game_name, rel_path, public_rel_path)
 
     data = {"date": date_str, "title": game_name, "file": rel_path, "public_file": public_rel_path}
     with open(LATEST_PATH, "w", encoding="utf-8") as f:
