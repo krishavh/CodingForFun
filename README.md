@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-02-08 — Velvet Echo: Signal Chase (`terminal/daily/2026_02_08_velvet_echo.py`)
+Latest: 2026-02-09 — Silent Prism: Word Forge (`terminal/daily/2026_02_09_silent_prism.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
