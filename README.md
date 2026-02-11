@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-02-10 — Lunar Cipher: Vault Code (`terminal/daily/2026_02_10_lunar_cipher.py`)
+Latest: 2026-02-11 — Crimson Glyph: Vault Code (`terminal/daily/2026_02_11_crimson_glyph.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
