@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-02-12",
+    "title": "Neon Prism: Word Forge",
+    "file": "terminal/daily/2026_02_12_neon_prism.py",
+    "public_file": "daily/2026_02_12_neon_prism.py"
+  },
+  {
     "date": "2026-02-11",
     "title": "Crimson Glyph: Vault Code",
     "file": "terminal/daily/2026_02_11_crimson_glyph.py",
