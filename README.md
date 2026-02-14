@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-02-13 — Golden Vault: Signal Chase (`terminal/daily/2026_02_13_golden_vault.py`)
+Latest: 2026-02-14 — Neon Cipher: Word Forge (`terminal/daily/2026_02_14_neon_cipher.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

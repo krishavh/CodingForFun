@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-02-14",
+    "title": "Neon Cipher: Word Forge",
+    "file": "terminal/daily/2026_02_14_neon_cipher.py",
+    "public_file": "daily/2026_02_14_neon_cipher.py"
+  },
+  {
     "date": "2026-02-13",
     "title": "Golden Vault: Signal Chase",
     "file": "terminal/daily/2026_02_13_golden_vault.py",
