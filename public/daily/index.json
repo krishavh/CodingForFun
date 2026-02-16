@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-02-16",
+    "title": "Obsidian Harbor: Word Forge",
+    "file": "terminal/daily/2026_02_16_obsidian_harbor.py",
+    "public_file": "daily/2026_02_16_obsidian_harbor.py"
+  },
+  {
     "date": "2026-02-15",
     "title": "Silent Anvil: Vault Code",
     "file": "terminal/daily/2026_02_15_silent_anvil.py",

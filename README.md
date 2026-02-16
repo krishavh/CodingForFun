@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-02-15 — Silent Anvil: Vault Code (`terminal/daily/2026_02_15_silent_anvil.py`)
+Latest: 2026-02-16 — Obsidian Harbor: Word Forge (`terminal/daily/2026_02_16_obsidian_harbor.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
