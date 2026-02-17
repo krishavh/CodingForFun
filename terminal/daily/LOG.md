@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-02-17 — Amber Harbor: Vault Code (`terminal/daily/2026_02_17_amber_harbor.py`)
 - 2026-02-16 — Obsidian Harbor: Word Forge (`terminal/daily/2026_02_16_obsidian_harbor.py`)
 - 2026-02-15 — Silent Anvil: Vault Code (`terminal/daily/2026_02_15_silent_anvil.py`)
 - 2026-02-14 — Neon Cipher: Word Forge (`terminal/daily/2026_02_14_neon_cipher.py`)
