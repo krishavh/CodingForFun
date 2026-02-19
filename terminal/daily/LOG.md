@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-02-19 — Neon Circuit: Signal Chase (`terminal/daily/2026_02_19_neon_circuit.py`)
 - 2026-02-18 — Obsidian Anvil: Word Forge (`terminal/daily/2026_02_18_obsidian_anvil.py`)
 - 2026-02-17 — Amber Harbor: Vault Code (`terminal/daily/2026_02_17_amber_harbor.py`)
 - 2026-02-16 — Obsidian Harbor: Word Forge (`terminal/daily/2026_02_16_obsidian_harbor.py`)
