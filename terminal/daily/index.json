@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-02-20",
+    "title": "Crimson Beacon: Word Forge",
+    "file": "terminal/daily/2026_02_20_crimson_beacon.py",
+    "public_file": "daily/2026_02_20_crimson_beacon.py"
+  },
+  {
     "date": "2026-02-19",
     "title": "Neon Circuit: Signal Chase",
     "file": "terminal/daily/2026_02_19_neon_circuit.py",
