@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-02-21 — Silent Harbor: Word Forge (`terminal/daily/2026_02_21_silent_harbor.py`)
 - 2026-02-20 — Crimson Beacon: Word Forge (`terminal/daily/2026_02_20_crimson_beacon.py`)
 - 2026-02-19 — Neon Circuit: Signal Chase (`terminal/daily/2026_02_19_neon_circuit.py`)
 - 2026-02-18 — Obsidian Anvil: Word Forge (`terminal/daily/2026_02_18_obsidian_anvil.py`)
