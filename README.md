@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-02-22 — Crimson Anvil: Word Forge (`terminal/daily/2026_02_22_crimson_anvil.py`)
+Latest: 2026-02-23 — Silent Beacon: Vault Code (`terminal/daily/2026_02_23_silent_beacon.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
