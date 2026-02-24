@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-02-24",
+    "title": "Azure Prism: Signal Chase",
+    "file": "terminal/daily/2026_02_24_azure_prism.py",
+    "public_file": "daily/2026_02_24_azure_prism.py"
+  },
+  {
     "date": "2026-02-23",
     "title": "Silent Beacon: Vault Code",
     "file": "terminal/daily/2026_02_23_silent_beacon.py",
