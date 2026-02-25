@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-02-25 — Crimson Maze: Vault Code (`terminal/daily/2026_02_25_crimson_maze.py`)
 - 2026-02-24 — Azure Prism: Signal Chase (`terminal/daily/2026_02_24_azure_prism.py`)
 - 2026-02-23 — Silent Beacon: Vault Code (`terminal/daily/2026_02_23_silent_beacon.py`)
 - 2026-02-22 — Crimson Anvil: Word Forge (`terminal/daily/2026_02_22_crimson_anvil.py`)
