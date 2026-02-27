@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-02-27 — Golden Echo: Word Forge (`terminal/daily/2026_02_27_golden_echo.py`)
 - 2026-02-26 — Amber Harbor: Word Forge (`terminal/daily/2026_02_26_amber_harbor.py`)
 - 2026-02-25 — Crimson Maze: Vault Code (`terminal/daily/2026_02_25_crimson_maze.py`)
 - 2026-02-24 — Azure Prism: Signal Chase (`terminal/daily/2026_02_24_azure_prism.py`)

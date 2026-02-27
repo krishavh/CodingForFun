@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-02-27",
+    "title": "Golden Echo: Word Forge",
+    "file": "terminal/daily/2026_02_27_golden_echo.py",
+    "public_file": "daily/2026_02_27_golden_echo.py"
+  },
+  {
     "date": "2026-02-26",
     "title": "Amber Harbor: Word Forge",
     "file": "terminal/daily/2026_02_26_amber_harbor.py",
