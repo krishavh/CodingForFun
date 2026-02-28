@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-02-28",
+    "title": "Obsidian Maze: Vault Code",
+    "file": "terminal/daily/2026_02_28_obsidian_maze.py",
+    "public_file": "daily/2026_02_28_obsidian_maze.py"
+  },
+  {
     "date": "2026-02-27",
     "title": "Golden Echo: Word Forge",
     "file": "terminal/daily/2026_02_27_golden_echo.py",

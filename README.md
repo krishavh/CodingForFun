@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-02-27 — Golden Echo: Word Forge (`terminal/daily/2026_02_27_golden_echo.py`)
+Latest: 2026-02-28 — Obsidian Maze: Vault Code (`terminal/daily/2026_02_28_obsidian_maze.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
