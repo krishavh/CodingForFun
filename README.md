@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-02-28 — Obsidian Maze: Vault Code (`terminal/daily/2026_02_28_obsidian_maze.py`)
+Latest: 2026-03-01 — Neon Anvil: Signal Chase (`terminal/daily/2026_03_01_neon_anvil.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
