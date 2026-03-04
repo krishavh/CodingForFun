@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-03-04",
+    "title": "Neon Vault: Signal Chase",
+    "file": "terminal/daily/2026_03_04_neon_vault.py",
+    "public_file": "daily/2026_03_04_neon_vault.py"
+  },
+  {
     "date": "2026-03-03",
     "title": "Crimson Cipher: Vault Code",
     "file": "terminal/daily/2026_03_03_crimson_cipher.py",
