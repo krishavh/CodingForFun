@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-03-05 — Azure Circuit: Vault Code (`terminal/daily/2026_03_05_azure_circuit.py`)
 - 2026-03-04 — Neon Vault: Signal Chase (`terminal/daily/2026_03_04_neon_vault.py`)
 - 2026-03-03 — Crimson Cipher: Vault Code (`terminal/daily/2026_03_03_crimson_cipher.py`)
 - 2026-03-02 — Amber Circuit: Word Forge (`terminal/daily/2026_03_02_amber_circuit.py`)

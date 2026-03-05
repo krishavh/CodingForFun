@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-04 — Neon Vault: Signal Chase (`terminal/daily/2026_03_04_neon_vault.py`)
+Latest: 2026-03-05 — Azure Circuit: Vault Code (`terminal/daily/2026_03_05_azure_circuit.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
