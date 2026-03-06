@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-05 — Azure Circuit: Vault Code (`terminal/daily/2026_03_05_azure_circuit.py`)
+Latest: 2026-03-06 — Solar Maze: Word Forge (`terminal/daily/2026_03_06_solar_maze.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
