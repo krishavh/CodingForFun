@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-06 — Solar Maze: Word Forge (`terminal/daily/2026_03_06_solar_maze.py`)
+Latest: 2026-03-07 — Iron Maze: Signal Chase (`terminal/daily/2026_03_07_iron_maze.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
