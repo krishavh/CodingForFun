@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-08 — Velvet Echo: Vault Code (`terminal/daily/2026_03_08_velvet_echo.py`)
+Latest: 2026-03-09 — Amber Echo: Vault Code (`terminal/daily/2026_03_09_amber_echo.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

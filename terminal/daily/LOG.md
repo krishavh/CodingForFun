@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-03-09 — Amber Echo: Vault Code (`terminal/daily/2026_03_09_amber_echo.py`)
 - 2026-03-08 — Velvet Echo: Vault Code (`terminal/daily/2026_03_08_velvet_echo.py`)
 - 2026-03-07 — Iron Maze: Signal Chase (`terminal/daily/2026_03_07_iron_maze.py`)
 - 2026-03-06 — Solar Maze: Word Forge (`terminal/daily/2026_03_06_solar_maze.py`)
