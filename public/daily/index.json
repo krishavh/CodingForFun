@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-03-11",
+    "title": "Amber Beacon: Word Forge",
+    "file": "terminal/daily/2026_03_11_amber_beacon.py",
+    "public_file": "daily/2026_03_11_amber_beacon.py"
+  },
+  {
     "date": "2026-03-10",
     "title": "Crimson Maze: Word Forge",
     "file": "terminal/daily/2026_03_10_crimson_maze.py",

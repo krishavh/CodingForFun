@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-10 — Crimson Maze: Word Forge (`terminal/daily/2026_03_10_crimson_maze.py`)
+Latest: 2026-03-11 — Amber Beacon: Word Forge (`terminal/daily/2026_03_11_amber_beacon.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
