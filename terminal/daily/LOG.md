@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-03-13 — Obsidian Harbor: Word Forge (`terminal/daily/2026_03_13_obsidian_harbor.py`)
 - 2026-03-12 — Velvet Lantern: Signal Chase (`terminal/daily/2026_03_12_velvet_lantern.py`)
 - 2026-03-11 — Amber Beacon: Word Forge (`terminal/daily/2026_03_11_amber_beacon.py`)
 - 2026-03-10 — Crimson Maze: Word Forge (`terminal/daily/2026_03_10_crimson_maze.py`)
