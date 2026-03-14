@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-03-14",
+    "title": "Arc Cipher: Vault Code",
+    "file": "terminal/daily/2026_03_14_arc_cipher.py",
+    "public_file": "daily/2026_03_14_arc_cipher.py"
+  },
+  {
     "date": "2026-03-13",
     "title": "Obsidian Harbor: Word Forge",
     "file": "terminal/daily/2026_03_13_obsidian_harbor.py",

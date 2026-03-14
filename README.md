@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-13 — Obsidian Harbor: Word Forge (`terminal/daily/2026_03_13_obsidian_harbor.py`)
+Latest: 2026-03-14 — Arc Cipher: Vault Code (`terminal/daily/2026_03_14_arc_cipher.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
