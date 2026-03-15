@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-14 — Arc Cipher: Vault Code (`terminal/daily/2026_03_14_arc_cipher.py`)
+Latest: 2026-03-15 — Iron Vault: Signal Chase (`terminal/daily/2026_03_15_iron_vault.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
