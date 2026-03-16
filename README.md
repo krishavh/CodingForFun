@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-15 — Iron Vault: Signal Chase (`terminal/daily/2026_03_15_iron_vault.py`)
+Latest: 2026-03-16 — Velvet Prism: Vault Code (`terminal/daily/2026_03_16_velvet_prism.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
