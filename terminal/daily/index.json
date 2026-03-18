@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-03-18",
+    "title": "Velvet Glyph: Word Forge",
+    "file": "terminal/daily/2026_03_18_velvet_glyph.py",
+    "public_file": "daily/2026_03_18_velvet_glyph.py"
+  },
+  {
     "date": "2026-03-17",
     "title": "Golden Lantern: Signal Chase",
     "file": "terminal/daily/2026_03_17_golden_lantern.py",
