@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-03-20 — Lunar Lantern: Word Forge (`terminal/daily/2026_03_20_lunar_lantern.py`)
 - 2026-03-19 — Iron Prism: Vault Code (`terminal/daily/2026_03_19_iron_prism.py`)
 - 2026-03-18 — Velvet Glyph: Word Forge (`terminal/daily/2026_03_18_velvet_glyph.py`)
 - 2026-03-17 — Golden Lantern: Signal Chase (`terminal/daily/2026_03_17_golden_lantern.py`)

@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-19 — Iron Prism: Vault Code (`terminal/daily/2026_03_19_iron_prism.py`)
+Latest: 2026-03-20 — Lunar Lantern: Word Forge (`terminal/daily/2026_03_20_lunar_lantern.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
