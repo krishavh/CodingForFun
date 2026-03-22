@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-21 — Velvet Signal: Vault Code (`terminal/daily/2026_03_21_velvet_signal.py`)
+Latest: 2026-03-22 — Velvet Harbor: Word Forge (`terminal/daily/2026_03_22_velvet_harbor.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
