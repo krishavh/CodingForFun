@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-03-24 — Golden Signal: Vault Code (`terminal/daily/2026_03_24_golden_signal.py`)
 - 2026-03-23 — Arc Beacon: Vault Code (`terminal/daily/2026_03_23_arc_beacon.py`)
 - 2026-03-22 — Velvet Harbor: Word Forge (`terminal/daily/2026_03_22_velvet_harbor.py`)
 - 2026-03-21 — Velvet Signal: Vault Code (`terminal/daily/2026_03_21_velvet_signal.py`)
