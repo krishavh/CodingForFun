@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-26 — Velvet Glyph: Vault Code (`terminal/daily/2026_03_26_velvet_glyph.py`)
+Latest: 2026-03-27 — Golden Glyph: Word Forge (`terminal/daily/2026_03_27_golden_glyph.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-03-27 — Golden Glyph: Word Forge (`terminal/daily/2026_03_27_golden_glyph.py`)
 - 2026-03-26 — Velvet Glyph: Vault Code (`terminal/daily/2026_03_26_velvet_glyph.py`)
 - 2026-03-25 — Arc Vault: Signal Chase (`terminal/daily/2026_03_25_arc_vault.py`)
 - 2026-03-24 — Golden Signal: Vault Code (`terminal/daily/2026_03_24_golden_signal.py`)
