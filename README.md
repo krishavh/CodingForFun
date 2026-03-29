@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-28 — Amber Vault: Vault Code (`terminal/daily/2026_03_28_amber_vault.py`)
+Latest: 2026-03-29 — Golden Cipher: Word Forge (`terminal/daily/2026_03_29_golden_cipher.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
