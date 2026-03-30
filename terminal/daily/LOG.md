@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-03-30 — Solar Prism: Word Forge (`terminal/daily/2026_03_30_solar_prism.py`)
 - 2026-03-29 — Golden Cipher: Word Forge (`terminal/daily/2026_03_29_golden_cipher.py`)
 - 2026-03-28 — Amber Vault: Vault Code (`terminal/daily/2026_03_28_amber_vault.py`)
 - 2026-03-27 — Golden Glyph: Word Forge (`terminal/daily/2026_03_27_golden_glyph.py`)

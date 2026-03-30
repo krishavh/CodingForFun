@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-29 — Golden Cipher: Word Forge (`terminal/daily/2026_03_29_golden_cipher.py`)
+Latest: 2026-03-30 — Solar Prism: Word Forge (`terminal/daily/2026_03_30_solar_prism.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
