@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-03-31",
+    "title": "Golden Cipher: Signal Chase",
+    "file": "terminal/daily/2026_03_31_golden_cipher.py",
+    "public_file": "daily/2026_03_31_golden_cipher.py"
+  },
+  {
     "date": "2026-03-30",
     "title": "Solar Prism: Word Forge",
     "file": "terminal/daily/2026_03_30_solar_prism.py",
