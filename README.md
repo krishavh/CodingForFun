@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-03-31 — Golden Cipher: Signal Chase (`terminal/daily/2026_03_31_golden_cipher.py`)
+Latest: 2026-04-01 — Amber Echo: Signal Chase (`terminal/daily/2026_04_01_amber_echo.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

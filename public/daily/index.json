@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-01",
+    "title": "Amber Echo: Signal Chase",
+    "file": "terminal/daily/2026_04_01_amber_echo.py",
+    "public_file": "daily/2026_04_01_amber_echo.py"
+  },
+  {
     "date": "2026-03-31",
     "title": "Golden Cipher: Signal Chase",
     "file": "terminal/daily/2026_03_31_golden_cipher.py",
