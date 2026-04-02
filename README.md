@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-04-01 — Amber Echo: Signal Chase (`terminal/daily/2026_04_01_amber_echo.py`)
+Latest: 2026-04-02 — Obsidian Lantern: Word Forge (`terminal/daily/2026_04_02_obsidian_lantern.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
