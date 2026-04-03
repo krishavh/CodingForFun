@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-04-03 — Silent Anvil: Vault Code (`terminal/daily/2026_04_03_silent_anvil.py`)
 - 2026-04-02 — Obsidian Lantern: Word Forge (`terminal/daily/2026_04_02_obsidian_lantern.py`)
 - 2026-04-01 — Amber Echo: Signal Chase (`terminal/daily/2026_04_01_amber_echo.py`)
 - 2026-03-31 — Golden Cipher: Signal Chase (`terminal/daily/2026_03_31_golden_cipher.py`)
