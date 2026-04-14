@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-04-14 — Golden Harbor: Signal Chase (`terminal/daily/2026_04_14_golden_harbor.py`)
 - 2026-04-13 — Neon Anvil: Word Forge (`terminal/daily/2026_04_13_neon_anvil.py`)
 - 2026-04-03 — Silent Anvil: Vault Code (`terminal/daily/2026_04_03_silent_anvil.py`)
 - 2026-04-02 — Obsidian Lantern: Word Forge (`terminal/daily/2026_04_02_obsidian_lantern.py`)
