@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-04-14 — Golden Harbor: Signal Chase (`terminal/daily/2026_04_14_golden_harbor.py`)
+Latest: 2026-04-15 — Iron Beacon: Vault Code (`terminal/daily/2026_04_15_iron_beacon.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
