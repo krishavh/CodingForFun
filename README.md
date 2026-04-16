@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-04-15 — Iron Beacon: Vault Code (`terminal/daily/2026_04_15_iron_beacon.py`)
+Latest: 2026-04-16 — Neon Echo: Vault Code (`terminal/daily/2026_04_16_neon_echo.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

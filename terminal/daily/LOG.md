@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-04-16 — Neon Echo: Vault Code (`terminal/daily/2026_04_16_neon_echo.py`)
 - 2026-04-15 — Iron Beacon: Vault Code (`terminal/daily/2026_04_15_iron_beacon.py`)
 - 2026-04-14 — Golden Harbor: Signal Chase (`terminal/daily/2026_04_14_golden_harbor.py`)
 - 2026-04-13 — Neon Anvil: Word Forge (`terminal/daily/2026_04_13_neon_anvil.py`)
