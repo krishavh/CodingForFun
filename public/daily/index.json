@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-17",
+    "title": "Amber Beacon: Vault Code",
+    "file": "terminal/daily/2026_04_17_amber_beacon.py",
+    "public_file": "daily/2026_04_17_amber_beacon.py"
+  },
+  {
     "date": "2026-04-16",
     "title": "Neon Echo: Vault Code",
     "file": "terminal/daily/2026_04_16_neon_echo.py",
