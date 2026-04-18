@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-18",
+    "title": "Arc Glyph: Word Forge",
+    "file": "terminal/daily/2026_04_18_arc_glyph.py",
+    "public_file": "daily/2026_04_18_arc_glyph.py"
+  },
+  {
     "date": "2026-04-17",
     "title": "Amber Beacon: Vault Code",
     "file": "terminal/daily/2026_04_17_amber_beacon.py",

@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-04-17 — Amber Beacon: Vault Code (`terminal/daily/2026_04_17_amber_beacon.py`)
+Latest: 2026-04-18 — Arc Glyph: Word Forge (`terminal/daily/2026_04_18_arc_glyph.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
