@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-04-19 — Lunar Echo: Vault Code (`terminal/daily/2026_04_19_lunar_echo.py`)
 - 2026-04-18 — Arc Glyph: Word Forge (`terminal/daily/2026_04_18_arc_glyph.py`)
 - 2026-04-17 — Amber Beacon: Vault Code (`terminal/daily/2026_04_17_amber_beacon.py`)
 - 2026-04-16 — Neon Echo: Vault Code (`terminal/daily/2026_04_16_neon_echo.py`)
