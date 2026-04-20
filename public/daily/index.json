@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-20",
+    "title": "Neon Anvil: Vault Code",
+    "file": "terminal/daily/2026_04_20_neon_anvil.py",
+    "public_file": "daily/2026_04_20_neon_anvil.py"
+  },
+  {
     "date": "2026-04-19",
     "title": "Lunar Echo: Vault Code",
     "file": "terminal/daily/2026_04_19_lunar_echo.py",
