@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-04-21 — Neon Lantern: Word Forge (`terminal/daily/2026_04_21_neon_lantern.py`)
+Latest: 2026-04-22 — Solar Glyph: Word Forge (`terminal/daily/2026_04_22_solar_glyph.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

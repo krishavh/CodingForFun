@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-04-22 — Solar Glyph: Word Forge (`terminal/daily/2026_04_22_solar_glyph.py`)
 - 2026-04-21 — Neon Lantern: Word Forge (`terminal/daily/2026_04_21_neon_lantern.py`)
 - 2026-04-20 — Neon Anvil: Vault Code (`terminal/daily/2026_04_20_neon_anvil.py`)
 - 2026-04-19 — Lunar Echo: Vault Code (`terminal/daily/2026_04_19_lunar_echo.py`)
