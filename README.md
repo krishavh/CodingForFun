@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-04-22 — Solar Glyph: Word Forge (`terminal/daily/2026_04_22_solar_glyph.py`)
+Latest: 2026-04-23 — Azure Echo: Word Forge (`terminal/daily/2026_04_23_azure_echo.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-23",
+    "title": "Azure Echo: Word Forge",
+    "file": "terminal/daily/2026_04_23_azure_echo.py",
+    "public_file": "daily/2026_04_23_azure_echo.py"
+  },
+  {
     "date": "2026-04-22",
     "title": "Solar Glyph: Word Forge",
     "file": "terminal/daily/2026_04_22_solar_glyph.py",
