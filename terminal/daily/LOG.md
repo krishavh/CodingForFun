@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-04-24 — Amber Signal: Signal Chase (`terminal/daily/2026_04_24_amber_signal.py`)
 - 2026-04-23 — Azure Echo: Word Forge (`terminal/daily/2026_04_23_azure_echo.py`)
 - 2026-04-22 — Solar Glyph: Word Forge (`terminal/daily/2026_04_22_solar_glyph.py`)
 - 2026-04-21 — Neon Lantern: Word Forge (`terminal/daily/2026_04_21_neon_lantern.py`)

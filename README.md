@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-04-23 — Azure Echo: Word Forge (`terminal/daily/2026_04_23_azure_echo.py`)
+Latest: 2026-04-24 — Amber Signal: Signal Chase (`terminal/daily/2026_04_24_amber_signal.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
