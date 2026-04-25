@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-04-24 — Amber Signal: Signal Chase (`terminal/daily/2026_04_24_amber_signal.py`)
+Latest: 2026-04-25 — Silent Echo: Vault Code (`terminal/daily/2026_04_25_silent_echo.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
