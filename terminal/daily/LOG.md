@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-04-27 — Amber Vault: Signal Chase (`terminal/daily/2026_04_27_amber_vault.py`)
 - 2026-04-26 — Iron Signal: Signal Chase (`terminal/daily/2026_04_26_iron_signal.py`)
 - 2026-04-25 — Silent Echo: Vault Code (`terminal/daily/2026_04_25_silent_echo.py`)
 - 2026-04-24 — Amber Signal: Signal Chase (`terminal/daily/2026_04_24_amber_signal.py`)
