@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-04-29",
+    "title": "Amber Harbor: Word Forge",
+    "file": "terminal/daily/2026_04_29_amber_harbor.py",
+    "public_file": "daily/2026_04_29_amber_harbor.py"
+  },
+  {
     "date": "2026-04-28",
     "title": "Obsidian Cipher: Signal Chase",
     "file": "terminal/daily/2026_04_28_obsidian_cipher.py",
