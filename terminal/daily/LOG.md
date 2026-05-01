@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-01 — Silent Signal: Word Forge (`terminal/daily/2026_05_01_silent_signal.py`)
 - 2026-04-30 — Iron Cipher: Vault Code (`terminal/daily/2026_04_30_iron_cipher.py`)
 - 2026-04-29 — Amber Harbor: Word Forge (`terminal/daily/2026_04_29_amber_harbor.py`)
 - 2026-04-28 — Obsidian Cipher: Signal Chase (`terminal/daily/2026_04_28_obsidian_cipher.py`)
