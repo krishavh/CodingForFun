@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-02",
+    "title": "Arc Cipher: Vault Code",
+    "file": "terminal/daily/2026_05_02_arc_cipher.py",
+    "public_file": "daily/2026_05_02_arc_cipher.py"
+  },
+  {
     "date": "2026-05-01",
     "title": "Silent Signal: Word Forge",
     "file": "terminal/daily/2026_05_01_silent_signal.py",

@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-01 — Silent Signal: Word Forge (`terminal/daily/2026_05_01_silent_signal.py`)
+Latest: 2026-05-02 — Arc Cipher: Vault Code (`terminal/daily/2026_05_02_arc_cipher.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
