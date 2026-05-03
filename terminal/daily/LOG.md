@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-03 — Velvet Circuit: Vault Code (`terminal/daily/2026_05_03_velvet_circuit.py`)
 - 2026-05-02 — Arc Cipher: Vault Code (`terminal/daily/2026_05_02_arc_cipher.py`)
 - 2026-05-01 — Silent Signal: Word Forge (`terminal/daily/2026_05_01_silent_signal.py`)
 - 2026-04-30 — Iron Cipher: Vault Code (`terminal/daily/2026_04_30_iron_cipher.py`)
