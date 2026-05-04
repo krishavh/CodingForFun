@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-04",
+    "title": "Velvet Beacon: Signal Chase",
+    "file": "terminal/daily/2026_05_04_velvet_beacon.py",
+    "public_file": "daily/2026_05_04_velvet_beacon.py"
+  },
+  {
     "date": "2026-05-03",
     "title": "Velvet Circuit: Vault Code",
     "file": "terminal/daily/2026_05_03_velvet_circuit.py",
