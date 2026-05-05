@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-04 — Velvet Beacon: Signal Chase (`terminal/daily/2026_05_04_velvet_beacon.py`)
+Latest: 2026-05-05 — Iron Lantern: Word Forge (`terminal/daily/2026_05_05_iron_lantern.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
