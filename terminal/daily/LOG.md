@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-06 — Crimson Circuit: Word Forge (`terminal/daily/2026_05_06_crimson_circuit.py`)
 - 2026-05-05 — Iron Lantern: Word Forge (`terminal/daily/2026_05_05_iron_lantern.py`)
 - 2026-05-04 — Velvet Beacon: Signal Chase (`terminal/daily/2026_05_04_velvet_beacon.py`)
 - 2026-05-03 — Velvet Circuit: Vault Code (`terminal/daily/2026_05_03_velvet_circuit.py`)
