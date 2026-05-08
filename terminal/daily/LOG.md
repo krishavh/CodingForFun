@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-08 — Amber Maze: Signal Chase (`terminal/daily/2026_05_08_amber_maze.py`)
 - 2026-05-07 — Amber Anvil: Word Forge (`terminal/daily/2026_05_07_amber_anvil.py`)
 - 2026-05-06 — Crimson Circuit: Word Forge (`terminal/daily/2026_05_06_crimson_circuit.py`)
 - 2026-05-05 — Iron Lantern: Word Forge (`terminal/daily/2026_05_05_iron_lantern.py`)

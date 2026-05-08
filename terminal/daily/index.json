@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-08",
+    "title": "Amber Maze: Signal Chase",
+    "file": "terminal/daily/2026_05_08_amber_maze.py",
+    "public_file": "daily/2026_05_08_amber_maze.py"
+  },
+  {
     "date": "2026-05-07",
     "title": "Amber Anvil: Word Forge",
     "file": "terminal/daily/2026_05_07_amber_anvil.py",
