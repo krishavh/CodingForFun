@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-09 — Golden Circuit: Word Forge (`terminal/daily/2026_05_09_golden_circuit.py`)
+Latest: 2026-05-10 — Neon Lantern: Vault Code (`terminal/daily/2026_05_10_neon_lantern.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
