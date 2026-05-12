@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-12 — Azure Prism: Vault Code (`terminal/daily/2026_05_12_azure_prism.py`)
 - 2026-05-11 — Solar Vault: Signal Chase (`terminal/daily/2026_05_11_solar_vault.py`)
 - 2026-05-10 — Neon Lantern: Vault Code (`terminal/daily/2026_05_10_neon_lantern.py`)
 - 2026-05-09 — Golden Circuit: Word Forge (`terminal/daily/2026_05_09_golden_circuit.py`)

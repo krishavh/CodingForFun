@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-12",
+    "title": "Azure Prism: Vault Code",
+    "file": "terminal/daily/2026_05_12_azure_prism.py",
+    "public_file": "daily/2026_05_12_azure_prism.py"
+  },
+  {
     "date": "2026-05-11",
     "title": "Solar Vault: Signal Chase",
     "file": "terminal/daily/2026_05_11_solar_vault.py",

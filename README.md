@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-11 — Solar Vault: Signal Chase (`terminal/daily/2026_05_11_solar_vault.py`)
+Latest: 2026-05-12 — Azure Prism: Vault Code (`terminal/daily/2026_05_12_azure_prism.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
