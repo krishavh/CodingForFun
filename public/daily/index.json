@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-13",
+    "title": "Crimson Cipher: Word Forge",
+    "file": "terminal/daily/2026_05_13_crimson_cipher.py",
+    "public_file": "daily/2026_05_13_crimson_cipher.py"
+  },
+  {
     "date": "2026-05-12",
     "title": "Azure Prism: Vault Code",
     "file": "terminal/daily/2026_05_12_azure_prism.py",
