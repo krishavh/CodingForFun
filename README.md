@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-13 — Crimson Cipher: Word Forge (`terminal/daily/2026_05_13_crimson_cipher.py`)
+Latest: 2026-05-14 — Crimson Maze: Vault Code (`terminal/daily/2026_05_14_crimson_maze.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
