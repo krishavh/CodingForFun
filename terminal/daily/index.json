@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-15",
+    "title": "Solar Beacon: Vault Code",
+    "file": "terminal/daily/2026_05_15_solar_beacon.py",
+    "public_file": "daily/2026_05_15_solar_beacon.py"
+  },
+  {
     "date": "2026-05-14",
     "title": "Crimson Maze: Vault Code",
     "file": "terminal/daily/2026_05_14_crimson_maze.py",
