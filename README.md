@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-15 — Solar Beacon: Vault Code (`terminal/daily/2026_05_15_solar_beacon.py`)
+Latest: 2026-05-16 — Arc Signal: Vault Code (`terminal/daily/2026_05_16_arc_signal.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

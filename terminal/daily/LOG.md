@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-16 — Arc Signal: Vault Code (`terminal/daily/2026_05_16_arc_signal.py`)
 - 2026-05-15 — Solar Beacon: Vault Code (`terminal/daily/2026_05_15_solar_beacon.py`)
 - 2026-05-14 — Crimson Maze: Vault Code (`terminal/daily/2026_05_14_crimson_maze.py`)
 - 2026-05-13 — Crimson Cipher: Word Forge (`terminal/daily/2026_05_13_crimson_cipher.py`)
