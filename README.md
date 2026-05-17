@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-16 — Arc Signal: Vault Code (`terminal/daily/2026_05_16_arc_signal.py`)
+Latest: 2026-05-17 — Velvet Maze: Vault Code (`terminal/daily/2026_05_17_velvet_maze.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
