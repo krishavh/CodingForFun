@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-19 — Crimson Echo: Word Forge (`terminal/daily/2026_05_19_crimson_echo.py`)
 - 2026-05-18 — Neon Beacon: Signal Chase (`terminal/daily/2026_05_18_neon_beacon.py`)
 - 2026-05-17 — Velvet Maze: Vault Code (`terminal/daily/2026_05_17_velvet_maze.py`)
 - 2026-05-16 — Arc Signal: Vault Code (`terminal/daily/2026_05_16_arc_signal.py`)
