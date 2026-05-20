@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-20",
+    "title": "Iron Circuit: Word Forge",
+    "file": "terminal/daily/2026_05_20_iron_circuit.py",
+    "public_file": "daily/2026_05_20_iron_circuit.py"
+  },
+  {
     "date": "2026-05-19",
     "title": "Crimson Echo: Word Forge",
     "file": "terminal/daily/2026_05_19_crimson_echo.py",

@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-19 — Crimson Echo: Word Forge (`terminal/daily/2026_05_19_crimson_echo.py`)
+Latest: 2026-05-20 — Iron Circuit: Word Forge (`terminal/daily/2026_05_20_iron_circuit.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
