@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-21 — Silent Harbor: Vault Code (`terminal/daily/2026_05_21_silent_harbor.py`)
+Latest: 2026-05-22 — Velvet Maze: Vault Code (`terminal/daily/2026_05_22_velvet_maze.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
