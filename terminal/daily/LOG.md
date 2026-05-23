@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-23 — Solar Vault: Vault Code (`terminal/daily/2026_05_23_solar_vault.py`)
 - 2026-05-22 — Velvet Maze: Vault Code (`terminal/daily/2026_05_22_velvet_maze.py`)
 - 2026-05-21 — Silent Harbor: Vault Code (`terminal/daily/2026_05_21_silent_harbor.py`)
 - 2026-05-20 — Iron Circuit: Word Forge (`terminal/daily/2026_05_20_iron_circuit.py`)
