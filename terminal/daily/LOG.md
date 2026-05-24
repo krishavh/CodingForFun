@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-24 — Velvet Signal: Vault Code (`terminal/daily/2026_05_24_velvet_signal.py`)
 - 2026-05-23 — Solar Vault: Vault Code (`terminal/daily/2026_05_23_solar_vault.py`)
 - 2026-05-22 — Velvet Maze: Vault Code (`terminal/daily/2026_05_22_velvet_maze.py`)
 - 2026-05-21 — Silent Harbor: Vault Code (`terminal/daily/2026_05_21_silent_harbor.py`)

@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-24",
+    "title": "Velvet Signal: Vault Code",
+    "file": "terminal/daily/2026_05_24_velvet_signal.py",
+    "public_file": "daily/2026_05_24_velvet_signal.py"
+  },
+  {
     "date": "2026-05-23",
     "title": "Solar Vault: Vault Code",
     "file": "terminal/daily/2026_05_23_solar_vault.py",
