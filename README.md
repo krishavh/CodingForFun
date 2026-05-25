@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-24 — Velvet Signal: Vault Code (`terminal/daily/2026_05_24_velvet_signal.py`)
+Latest: 2026-05-25 — Amber Circuit: Vault Code (`terminal/daily/2026_05_25_amber_circuit.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
