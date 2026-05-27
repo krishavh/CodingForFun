@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-27",
+    "title": "Amber Circuit: Word Forge",
+    "file": "terminal/daily/2026_05_27_amber_circuit.py",
+    "public_file": "daily/2026_05_27_amber_circuit.py"
+  },
+  {
     "date": "2026-05-26",
     "title": "Azure Echo: Vault Code",
     "file": "terminal/daily/2026_05_26_azure_echo.py",
