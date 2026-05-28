@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-28",
+    "title": "Velvet Harbor: Signal Chase",
+    "file": "terminal/daily/2026_05_28_velvet_harbor.py",
+    "public_file": "daily/2026_05_28_velvet_harbor.py"
+  },
+  {
     "date": "2026-05-27",
     "title": "Amber Circuit: Word Forge",
     "file": "terminal/daily/2026_05_27_amber_circuit.py",
