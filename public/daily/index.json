@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-29",
+    "title": "Velvet Maze: Word Forge",
+    "file": "terminal/daily/2026_05_29_velvet_maze.py",
+    "public_file": "daily/2026_05_29_velvet_maze.py"
+  },
+  {
     "date": "2026-05-28",
     "title": "Velvet Harbor: Signal Chase",
     "file": "terminal/daily/2026_05_28_velvet_harbor.py",

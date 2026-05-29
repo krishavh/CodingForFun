@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-29 — Velvet Maze: Word Forge (`terminal/daily/2026_05_29_velvet_maze.py`)
 - 2026-05-28 — Velvet Harbor: Signal Chase (`terminal/daily/2026_05_28_velvet_harbor.py`)
 - 2026-05-27 — Amber Circuit: Word Forge (`terminal/daily/2026_05_27_amber_circuit.py`)
 - 2026-05-26 — Azure Echo: Vault Code (`terminal/daily/2026_05_26_azure_echo.py`)
