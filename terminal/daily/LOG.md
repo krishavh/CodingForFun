@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-05-30 — Velvet Lantern: Word Forge (`terminal/daily/2026_05_30_velvet_lantern.py`)
 - 2026-05-29 — Velvet Maze: Word Forge (`terminal/daily/2026_05_29_velvet_maze.py`)
 - 2026-05-28 — Velvet Harbor: Signal Chase (`terminal/daily/2026_05_28_velvet_harbor.py`)
 - 2026-05-27 — Amber Circuit: Word Forge (`terminal/daily/2026_05_27_amber_circuit.py`)

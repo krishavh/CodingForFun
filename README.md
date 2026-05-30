@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-29 — Velvet Maze: Word Forge (`terminal/daily/2026_05_29_velvet_maze.py`)
+Latest: 2026-05-30 — Velvet Lantern: Word Forge (`terminal/daily/2026_05_30_velvet_lantern.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
