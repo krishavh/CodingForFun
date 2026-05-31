@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-05-31",
+    "title": "Silent Cipher: Vault Code",
+    "file": "terminal/daily/2026_05_31_silent_cipher.py",
+    "public_file": "daily/2026_05_31_silent_cipher.py"
+  },
+  {
     "date": "2026-05-30",
     "title": "Velvet Lantern: Word Forge",
     "file": "terminal/daily/2026_05_30_velvet_lantern.py",
