@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-06-01",
+    "title": "Velvet Prism: Signal Chase",
+    "file": "terminal/daily/2026_06_01_velvet_prism.py",
+    "public_file": "daily/2026_06_01_velvet_prism.py"
+  },
+  {
     "date": "2026-05-31",
     "title": "Silent Cipher: Vault Code",
     "file": "terminal/daily/2026_05_31_silent_cipher.py",

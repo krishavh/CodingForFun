@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-05-31 — Silent Cipher: Vault Code (`terminal/daily/2026_05_31_silent_cipher.py`)
+Latest: 2026-06-01 — Velvet Prism: Signal Chase (`terminal/daily/2026_06_01_velvet_prism.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
