@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-02 — Iron Harbor: Word Forge (`terminal/daily/2026_06_02_iron_harbor.py`)
 - 2026-06-01 — Velvet Prism: Signal Chase (`terminal/daily/2026_06_01_velvet_prism.py`)
 - 2026-05-31 — Silent Cipher: Vault Code (`terminal/daily/2026_05_31_silent_cipher.py`)
 - 2026-05-30 — Velvet Lantern: Word Forge (`terminal/daily/2026_05_30_velvet_lantern.py`)
