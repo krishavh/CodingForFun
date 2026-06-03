@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-03 — Arc Maze: Vault Code (`terminal/daily/2026_06_03_arc_maze.py`)
 - 2026-06-02 — Iron Harbor: Word Forge (`terminal/daily/2026_06_02_iron_harbor.py`)
 - 2026-06-01 — Velvet Prism: Signal Chase (`terminal/daily/2026_06_01_velvet_prism.py`)
 - 2026-05-31 — Silent Cipher: Vault Code (`terminal/daily/2026_05_31_silent_cipher.py`)
