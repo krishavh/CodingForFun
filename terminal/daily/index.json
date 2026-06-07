@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-06-07",
+    "title": "Arc Maze: Signal Chase",
+    "file": "terminal/daily/2026_06_07_arc_maze.py",
+    "public_file": "daily/2026_06_07_arc_maze.py"
+  },
+  {
     "date": "2026-06-06",
     "title": "Obsidian Lantern: Signal Chase",
     "file": "terminal/daily/2026_06_06_obsidian_lantern.py",

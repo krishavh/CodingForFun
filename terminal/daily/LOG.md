@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-07 — Arc Maze: Signal Chase (`terminal/daily/2026_06_07_arc_maze.py`)
 - 2026-06-06 — Obsidian Lantern: Signal Chase (`terminal/daily/2026_06_06_obsidian_lantern.py`)
 - 2026-06-05 — Golden Prism: Signal Chase (`terminal/daily/2026_06_05_golden_prism.py`)
 - 2026-06-04 — Lunar Beacon: Signal Chase (`terminal/daily/2026_06_04_lunar_beacon.py`)

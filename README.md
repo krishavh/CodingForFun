@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-06 — Obsidian Lantern: Signal Chase (`terminal/daily/2026_06_06_obsidian_lantern.py`)
+Latest: 2026-06-07 — Arc Maze: Signal Chase (`terminal/daily/2026_06_07_arc_maze.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
