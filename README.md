@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-11 — Solar Anvil: Word Forge (`terminal/daily/2026_06_11_solar_anvil.py`)
+Latest: 2026-06-12 — Silent Echo: Vault Code (`terminal/daily/2026_06_12_silent_echo.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

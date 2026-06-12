@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-06-12",
+    "title": "Silent Echo: Vault Code",
+    "file": "terminal/daily/2026_06_12_silent_echo.py",
+    "public_file": "daily/2026_06_12_silent_echo.py"
+  },
+  {
     "date": "2026-06-11",
     "title": "Solar Anvil: Word Forge",
     "file": "terminal/daily/2026_06_11_solar_anvil.py",

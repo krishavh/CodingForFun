@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-12 — Silent Echo: Vault Code (`terminal/daily/2026_06_12_silent_echo.py`)
 - 2026-06-11 — Solar Anvil: Word Forge (`terminal/daily/2026_06_11_solar_anvil.py`)
 - 2026-06-10 — Azure Signal: Word Forge (`terminal/daily/2026_06_10_azure_signal.py`)
 - 2026-06-09 — Neon Maze: Vault Code (`terminal/daily/2026_06_09_neon_maze.py`)
