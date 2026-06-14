@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-13 — Silent Prism: Signal Chase (`terminal/daily/2026_06_13_silent_prism.py`)
+Latest: 2026-06-14 — Crimson Lantern: Signal Chase (`terminal/daily/2026_06_14_crimson_lantern.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

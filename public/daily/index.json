@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-06-14",
+    "title": "Crimson Lantern: Signal Chase",
+    "file": "terminal/daily/2026_06_14_crimson_lantern.py",
+    "public_file": "daily/2026_06_14_crimson_lantern.py"
+  },
+  {
     "date": "2026-06-13",
     "title": "Silent Prism: Signal Chase",
     "file": "terminal/daily/2026_06_13_silent_prism.py",
