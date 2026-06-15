@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-15 — Lunar Harbor: Vault Code (`terminal/daily/2026_06_15_lunar_harbor.py`)
 - 2026-06-14 — Crimson Lantern: Signal Chase (`terminal/daily/2026_06_14_crimson_lantern.py`)
 - 2026-06-13 — Silent Prism: Signal Chase (`terminal/daily/2026_06_13_silent_prism.py`)
 - 2026-06-12 — Silent Echo: Vault Code (`terminal/daily/2026_06_12_silent_echo.py`)
