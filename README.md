@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-15 — Lunar Harbor: Vault Code (`terminal/daily/2026_06_15_lunar_harbor.py`)
+Latest: 2026-06-16 — Azure Harbor: Signal Chase (`terminal/daily/2026_06_16_azure_harbor.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
