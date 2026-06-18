@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-18 — Solar Prism: Word Forge (`terminal/daily/2026_06_18_solar_prism.py`)
 - 2026-06-17 — Silent Beacon: Signal Chase (`terminal/daily/2026_06_17_silent_beacon.py`)
 - 2026-06-16 — Azure Harbor: Signal Chase (`terminal/daily/2026_06_16_azure_harbor.py`)
 - 2026-06-15 — Lunar Harbor: Vault Code (`terminal/daily/2026_06_15_lunar_harbor.py`)

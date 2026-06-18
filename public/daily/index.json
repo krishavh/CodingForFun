@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-06-18",
+    "title": "Solar Prism: Word Forge",
+    "file": "terminal/daily/2026_06_18_solar_prism.py",
+    "public_file": "daily/2026_06_18_solar_prism.py"
+  },
+  {
     "date": "2026-06-17",
     "title": "Silent Beacon: Signal Chase",
     "file": "terminal/daily/2026_06_17_silent_beacon.py",

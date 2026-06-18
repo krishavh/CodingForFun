@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-17 — Silent Beacon: Signal Chase (`terminal/daily/2026_06_17_silent_beacon.py`)
+Latest: 2026-06-18 — Solar Prism: Word Forge (`terminal/daily/2026_06_18_solar_prism.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
