@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-18 — Solar Prism: Word Forge (`terminal/daily/2026_06_18_solar_prism.py`)
+Latest: 2026-06-19 — Solar Signal: Word Forge (`terminal/daily/2026_06_19_solar_signal.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
