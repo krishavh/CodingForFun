@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-22 — Silent Anvil: Signal Chase (`terminal/daily/2026_06_22_silent_anvil.py`)
 - 2026-06-21 — Solar Prism: Vault Code (`terminal/daily/2026_06_21_solar_prism.py`)
 - 2026-06-20 — Golden Lantern: Vault Code (`terminal/daily/2026_06_20_golden_lantern.py`)
 - 2026-06-19 — Solar Signal: Word Forge (`terminal/daily/2026_06_19_solar_signal.py`)
