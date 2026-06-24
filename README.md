@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-23 — Neon Anvil: Signal Chase (`terminal/daily/2026_06_23_neon_anvil.py`)
+Latest: 2026-06-24 — Solar Harbor: Vault Code (`terminal/daily/2026_06_24_solar_harbor.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
