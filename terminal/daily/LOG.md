@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-25 — Azure Beacon: Vault Code (`terminal/daily/2026_06_25_azure_beacon.py`)
 - 2026-06-24 — Solar Harbor: Vault Code (`terminal/daily/2026_06_24_solar_harbor.py`)
 - 2026-06-23 — Neon Anvil: Signal Chase (`terminal/daily/2026_06_23_neon_anvil.py`)
 - 2026-06-22 — Silent Anvil: Signal Chase (`terminal/daily/2026_06_22_silent_anvil.py`)

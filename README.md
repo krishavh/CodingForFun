@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-24 — Solar Harbor: Vault Code (`terminal/daily/2026_06_24_solar_harbor.py`)
+Latest: 2026-06-25 — Azure Beacon: Vault Code (`terminal/daily/2026_06_25_azure_beacon.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
