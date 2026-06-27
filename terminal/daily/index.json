@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-06-27",
+    "title": "Obsidian Cipher: Signal Chase",
+    "file": "terminal/daily/2026_06_27_obsidian_cipher.py",
+    "public_file": "daily/2026_06_27_obsidian_cipher.py"
+  },
+  {
     "date": "2026-06-26",
     "title": "Obsidian Glyph: Signal Chase",
     "file": "terminal/daily/2026_06_26_obsidian_glyph.py",

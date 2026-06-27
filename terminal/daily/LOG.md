@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-27 — Obsidian Cipher: Signal Chase (`terminal/daily/2026_06_27_obsidian_cipher.py`)
 - 2026-06-26 — Obsidian Glyph: Signal Chase (`terminal/daily/2026_06_26_obsidian_glyph.py`)
 - 2026-06-25 — Azure Beacon: Vault Code (`terminal/daily/2026_06_25_azure_beacon.py`)
 - 2026-06-24 — Solar Harbor: Vault Code (`terminal/daily/2026_06_24_solar_harbor.py`)
