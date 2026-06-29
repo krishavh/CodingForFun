@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-28 — Lunar Circuit: Vault Code (`terminal/daily/2026_06_28_lunar_circuit.py`)
+Latest: 2026-06-29 — Neon Beacon: Signal Chase (`terminal/daily/2026_06_29_neon_beacon.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

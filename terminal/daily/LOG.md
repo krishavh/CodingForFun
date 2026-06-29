@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-06-29 — Neon Beacon: Signal Chase (`terminal/daily/2026_06_29_neon_beacon.py`)
 - 2026-06-28 — Lunar Circuit: Vault Code (`terminal/daily/2026_06_28_lunar_circuit.py`)
 - 2026-06-27 — Obsidian Cipher: Signal Chase (`terminal/daily/2026_06_27_obsidian_cipher.py`)
 - 2026-06-26 — Obsidian Glyph: Signal Chase (`terminal/daily/2026_06_26_obsidian_glyph.py`)
