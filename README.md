@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-06-30 — Iron Cipher: Vault Code (`terminal/daily/2026_06_30_iron_cipher.py`)
+Latest: 2026-07-01 — Neon Lantern: Signal Chase (`terminal/daily/2026_07_01_neon_lantern.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
