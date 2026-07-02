@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-02",
+    "title": "Golden Maze: Word Forge",
+    "file": "terminal/daily/2026_07_02_golden_maze.py",
+    "public_file": "daily/2026_07_02_golden_maze.py"
+  },
+  {
     "date": "2026-07-01",
     "title": "Neon Lantern: Signal Chase",
     "file": "terminal/daily/2026_07_01_neon_lantern.py",

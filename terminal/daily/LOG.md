@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-07-02 — Golden Maze: Word Forge (`terminal/daily/2026_07_02_golden_maze.py`)
 - 2026-07-01 — Neon Lantern: Signal Chase (`terminal/daily/2026_07_01_neon_lantern.py`)
 - 2026-06-30 — Iron Cipher: Vault Code (`terminal/daily/2026_06_30_iron_cipher.py`)
 - 2026-06-29 — Neon Beacon: Signal Chase (`terminal/daily/2026_06_29_neon_beacon.py`)
