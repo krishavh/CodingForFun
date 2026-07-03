@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-07-02 — Golden Maze: Word Forge (`terminal/daily/2026_07_02_golden_maze.py`)
+Latest: 2026-07-03 — Solar Glyph: Vault Code (`terminal/daily/2026_07_03_solar_glyph.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
