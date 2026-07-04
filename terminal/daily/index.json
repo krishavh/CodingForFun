@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-04",
+    "title": "Obsidian Maze: Word Forge",
+    "file": "terminal/daily/2026_07_04_obsidian_maze.py",
+    "public_file": "daily/2026_07_04_obsidian_maze.py"
+  },
+  {
     "date": "2026-07-03",
     "title": "Solar Glyph: Vault Code",
     "file": "terminal/daily/2026_07_03_solar_glyph.py",
