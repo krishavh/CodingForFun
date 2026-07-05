@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-05",
+    "title": "Obsidian Echo: Word Forge",
+    "file": "terminal/daily/2026_07_05_obsidian_echo.py",
+    "public_file": "daily/2026_07_05_obsidian_echo.py"
+  },
+  {
     "date": "2026-07-04",
     "title": "Obsidian Maze: Word Forge",
     "file": "terminal/daily/2026_07_04_obsidian_maze.py",
