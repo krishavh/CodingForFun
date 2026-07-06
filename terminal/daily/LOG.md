@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-07-06 — Amber Harbor: Signal Chase (`terminal/daily/2026_07_06_amber_harbor.py`)
 - 2026-07-05 — Obsidian Echo: Word Forge (`terminal/daily/2026_07_05_obsidian_echo.py`)
 - 2026-07-04 — Obsidian Maze: Word Forge (`terminal/daily/2026_07_04_obsidian_maze.py`)
 - 2026-07-03 — Solar Glyph: Vault Code (`terminal/daily/2026_07_03_solar_glyph.py`)

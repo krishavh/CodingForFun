@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-06",
+    "title": "Amber Harbor: Signal Chase",
+    "file": "terminal/daily/2026_07_06_amber_harbor.py",
+    "public_file": "daily/2026_07_06_amber_harbor.py"
+  },
+  {
     "date": "2026-07-05",
     "title": "Obsidian Echo: Word Forge",
     "file": "terminal/daily/2026_07_05_obsidian_echo.py",
