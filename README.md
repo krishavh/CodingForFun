@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-07-06 — Amber Harbor: Signal Chase (`terminal/daily/2026_07_06_amber_harbor.py`)
+Latest: 2026-07-07 — Arc Harbor: Word Forge (`terminal/daily/2026_07_07_arc_harbor.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

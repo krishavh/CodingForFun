@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-07",
+    "title": "Arc Harbor: Word Forge",
+    "file": "terminal/daily/2026_07_07_arc_harbor.py",
+    "public_file": "daily/2026_07_07_arc_harbor.py"
+  },
+  {
     "date": "2026-07-06",
     "title": "Amber Harbor: Signal Chase",
     "file": "terminal/daily/2026_07_06_amber_harbor.py",
