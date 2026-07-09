@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-07-09 — Lunar Echo: Word Forge (`terminal/daily/2026_07_09_lunar_echo.py`)
 - 2026-07-08 — Amber Prism: Signal Chase (`terminal/daily/2026_07_08_amber_prism.py`)
 - 2026-07-07 — Arc Harbor: Word Forge (`terminal/daily/2026_07_07_arc_harbor.py`)
 - 2026-07-06 — Amber Harbor: Signal Chase (`terminal/daily/2026_07_06_amber_harbor.py`)
