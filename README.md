@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-07-10 — Azure Anvil: Signal Chase (`terminal/daily/2026_07_10_azure_anvil.py`)
+Latest: 2026-07-11 — Azure Harbor: Word Forge (`terminal/daily/2026_07_11_azure_harbor.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
