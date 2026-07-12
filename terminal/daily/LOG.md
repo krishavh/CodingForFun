@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-07-12 — Crimson Vault: Vault Code (`terminal/daily/2026_07_12_crimson_vault.py`)
 - 2026-07-11 — Azure Harbor: Word Forge (`terminal/daily/2026_07_11_azure_harbor.py`)
 - 2026-07-10 — Azure Anvil: Signal Chase (`terminal/daily/2026_07_10_azure_anvil.py`)
 - 2026-07-09 — Lunar Echo: Word Forge (`terminal/daily/2026_07_09_lunar_echo.py`)
