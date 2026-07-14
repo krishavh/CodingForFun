@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-07-14 — Silent Glyph: Vault Code (`terminal/daily/2026_07_14_silent_glyph.py`)
 - 2026-07-13 — Neon Vault: Word Forge (`terminal/daily/2026_07_13_neon_vault.py`)
 - 2026-07-12 — Crimson Vault: Vault Code (`terminal/daily/2026_07_12_crimson_vault.py`)
 - 2026-07-11 — Azure Harbor: Word Forge (`terminal/daily/2026_07_11_azure_harbor.py`)

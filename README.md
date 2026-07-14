@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-07-13 — Neon Vault: Word Forge (`terminal/daily/2026_07_13_neon_vault.py`)
+Latest: 2026-07-14 — Silent Glyph: Vault Code (`terminal/daily/2026_07_14_silent_glyph.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
