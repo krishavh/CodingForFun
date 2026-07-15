@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-15",
+    "title": "Silent Beacon: Signal Chase",
+    "file": "terminal/daily/2026_07_15_silent_beacon.py",
+    "public_file": "daily/2026_07_15_silent_beacon.py"
+  },
+  {
     "date": "2026-07-14",
     "title": "Silent Glyph: Vault Code",
     "file": "terminal/daily/2026_07_14_silent_glyph.py",
