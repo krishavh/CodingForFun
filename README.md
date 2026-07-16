@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-07-15 — Silent Beacon: Signal Chase (`terminal/daily/2026_07_15_silent_beacon.py`)
+Latest: 2026-07-16 — Neon Maze: Signal Chase (`terminal/daily/2026_07_16_neon_maze.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
