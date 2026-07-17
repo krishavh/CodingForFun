@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-07-17 — Iron Vault: Signal Chase (`terminal/daily/2026_07_17_iron_vault.py`)
 - 2026-07-16 — Neon Maze: Signal Chase (`terminal/daily/2026_07_16_neon_maze.py`)
 - 2026-07-15 — Silent Beacon: Signal Chase (`terminal/daily/2026_07_15_silent_beacon.py`)
 - 2026-07-14 — Silent Glyph: Vault Code (`terminal/daily/2026_07_14_silent_glyph.py`)
