@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-05",
+    "title": "Solar Signal: Signal Chase",
+    "file": "terminal/daily/2026_08_05_solar_signal.py",
+    "public_file": "daily/2026_08_05_solar_signal.py"
+  },
+  {
     "date": "2026-08-04",
     "title": "Velvet Maze: Word Forge",
     "file": "terminal/daily/2026_08_04_velvet_maze.py",
