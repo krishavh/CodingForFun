@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-08-06 — Iron Vault: Vault Code (`terminal/daily/2026_08_06_iron_vault.py`)
 - 2026-08-05 — Solar Signal: Signal Chase (`terminal/daily/2026_08_05_solar_signal.py`)
 - 2026-08-04 — Velvet Maze: Word Forge (`terminal/daily/2026_08_04_velvet_maze.py`)
 - 2026-08-03 — Crimson Beacon: Word Forge (`terminal/daily/2026_08_03_crimson_beacon.py`)

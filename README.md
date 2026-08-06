@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-08-05 — Solar Signal: Signal Chase (`terminal/daily/2026_08_05_solar_signal.py`)
+Latest: 2026-08-06 — Iron Vault: Vault Code (`terminal/daily/2026_08_06_iron_vault.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
