@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-08-07 — Amber Echo: Vault Code (`terminal/daily/2026_08_07_amber_echo.py`)
+Latest: 2026-08-08 — Azure Prism: Signal Chase (`terminal/daily/2026_08_08_azure_prism.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

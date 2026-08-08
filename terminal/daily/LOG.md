@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-08-08 — Azure Prism: Signal Chase (`terminal/daily/2026_08_08_azure_prism.py`)
 - 2026-08-07 — Amber Echo: Vault Code (`terminal/daily/2026_08_07_amber_echo.py`)
 - 2026-08-06 — Iron Vault: Vault Code (`terminal/daily/2026_08_06_iron_vault.py`)
 - 2026-08-05 — Solar Signal: Signal Chase (`terminal/daily/2026_08_05_solar_signal.py`)
