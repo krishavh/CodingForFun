@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-08-08 — Azure Prism: Signal Chase (`terminal/daily/2026_08_08_azure_prism.py`)
+Latest: 2026-08-09 — Silent Harbor: Signal Chase (`terminal/daily/2026_08_09_silent_harbor.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
