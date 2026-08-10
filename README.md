@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-08-09 — Silent Harbor: Signal Chase (`terminal/daily/2026_08_09_silent_harbor.py`)
+Latest: 2026-08-10 — Iron Circuit: Vault Code (`terminal/daily/2026_08_10_iron_circuit.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

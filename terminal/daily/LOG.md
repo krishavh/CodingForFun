@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-08-10 — Iron Circuit: Vault Code (`terminal/daily/2026_08_10_iron_circuit.py`)
 - 2026-08-09 — Silent Harbor: Signal Chase (`terminal/daily/2026_08_09_silent_harbor.py`)
 - 2026-08-08 — Azure Prism: Signal Chase (`terminal/daily/2026_08_08_azure_prism.py`)
 - 2026-08-07 — Amber Echo: Vault Code (`terminal/daily/2026_08_07_amber_echo.py`)

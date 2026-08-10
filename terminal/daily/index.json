@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-10",
+    "title": "Iron Circuit: Vault Code",
+    "file": "terminal/daily/2026_08_10_iron_circuit.py",
+    "public_file": "daily/2026_08_10_iron_circuit.py"
+  },
+  {
     "date": "2026-08-09",
     "title": "Silent Harbor: Signal Chase",
     "file": "terminal/daily/2026_08_09_silent_harbor.py",
