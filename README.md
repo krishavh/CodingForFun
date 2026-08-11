@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-08-10 — Iron Circuit: Vault Code (`terminal/daily/2026_08_10_iron_circuit.py`)
+Latest: 2026-08-11 — Amber Glyph: Vault Code (`terminal/daily/2026_08_11_amber_glyph.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
