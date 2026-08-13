@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-08-13 — Crimson Vault: Word Forge (`terminal/daily/2026_08_13_crimson_vault.py`)
 - 2026-08-12 — Amber Glyph: Vault Code (`terminal/daily/2026_08_12_amber_glyph.py`)
 - 2026-08-11 — Amber Glyph: Vault Code (`terminal/daily/2026_08_11_amber_glyph.py`)
 - 2026-08-10 — Iron Circuit: Vault Code (`terminal/daily/2026_08_10_iron_circuit.py`)
