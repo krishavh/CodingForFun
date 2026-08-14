@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-14",
+    "title": "Golden Echo: Word Forge",
+    "file": "terminal/daily/2026_08_14_golden_echo.py",
+    "public_file": "daily/2026_08_14_golden_echo.py"
+  },
+  {
     "date": "2026-08-13",
     "title": "Crimson Vault: Word Forge",
     "file": "terminal/daily/2026_08_13_crimson_vault.py",
