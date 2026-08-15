@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ESP32 Thermal Lab</title>
+    <style>
+      :root {
+        --ink: #17212b;
+        --muted: #5e6b76;
+        --bg: #f2eadf;
+        --paper: #fffdf8;
+        --line: #d9cec0;
+        --dark: #121416;
+        --teal: #0f766e;
+        --amber: #b45309;
+        --blue: #2563eb;
+        --red: #dc2626;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background:
+          linear-gradient(90deg, rgba(15, 118, 110, .08) 1px, transparent 1px),
+          linear-gradient(rgba(15, 118, 110, .08) 1px, transparent 1px),
+          var(--bg);
+        background-size: 42px 42px;
+      }
+
+      a { color: inherit; }
+
+      .hero {
+        min-height: 92vh;
+        display: grid;
+        align-items: end;
+        color: white;
+        background:
+          linear-gradient(180deg, rgba(18, 20, 22, .35), rgba(18, 20, 22, .96)),
+          url("assets/esp32-thermal-lab/dashboard-wide.png") center top / cover no-repeat;
+      }
+
+      .hero-inner {
+        width: min(1180px, 100%);
+        margin: 0 auto;
+        padding: 28px 18px 64px;
+      }
+
+      .home-link {
+        display: inline-flex;
+        margin-bottom: 36px;
+        color: #d5f4ef;
+        text-decoration: none;
+        font-weight: 800;
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        color: #99f6e4;
+        font-size: .82rem;
+        font-weight: 850;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 900px;
+        font-size: clamp(3rem, 8vw, 7rem);
+        line-height: .92;
+        letter-spacing: 0;
+      }
+
+      .subtitle {
+        max-width: 760px;
+        margin: 18px 0 0;
+        color: rgba(255, 255, 255, .86);
+        font-size: clamp(1.05rem, 2vw, 1.4rem);
+        line-height: 1.55;
+      }
+
+      .hero-stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 24px;
+      }
+
+      .stat {
+        min-width: 150px;
+        padding: 12px 14px;
+        border: 1px solid rgba(255, 255, 255, .22);
+        border-radius: 8px;
+        background: rgba(0, 0, 0, .28);
+        backdrop-filter: blur(8px);
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 1.45rem;
+      }
+
+      .stat span {
+        color: rgba(255, 255, 255, .75);
+        font-size: .82rem;
+      }
+
+      main {
+        width: min(1180px, 100%);
+        margin: 0 auto;
+        padding: 26px 18px 64px;
+      }
+
+      section {
+        margin-top: 22px;
+      }
+
+      .band {
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--paper);
+        box-shadow: 0 14px 36px rgba(23, 33, 43, .12);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: clamp(1.8rem, 3vw, 2.6rem);
+        line-height: 1.05;
+        letter-spacing: 0;
+      }
+
+      h3 {
+        margin: 0 0 8px;
+        font-size: 1.08rem;
+      }
+
+      p, li {
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .three {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .snap {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--paper);
+      }
+
+      .snap img {
+        width: 100%;
+        display: block;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+        object-position: top center;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .snap.tall img {
+        aspect-ratio: 9 / 16;
+      }
+
+      .snap figcaption {
+        padding: 12px;
+        color: var(--muted);
+        font-size: .92rem;
+        line-height: 1.5;
+      }
+
+      .steps {
+        display: grid;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: step;
+      }
+
+      .steps li {
+        counter-increment: step;
+        position: relative;
+        padding: 12px 12px 12px 48px;
+        border: 1px solid #ece2d5;
+        border-radius: 8px;
+        background: #ffffff;
+      }
+
+      .steps li::before {
+        content: counter(step);
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        width: 24px;
+        height: 24px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        color: white;
+        background: var(--teal);
+        font-weight: 900;
+      }
+
+      .diagram {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 10px;
+        align-items: center;
+      }
+
+      .node {
+        min-height: 86px;
+        display: grid;
+        place-items: center;
+        padding: 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        text-align: center;
+        font-weight: 850;
+      }
+
+      .arrow {
+        color: var(--teal);
+        font-size: 1.7rem;
+        font-weight: 900;
+        text-align: center;
+      }
+
+      pre {
+        margin: 0;
+        overflow: auto;
+        padding: 16px;
+        border-radius: 8px;
+        color: #e8f0f7;
+        background: var(--dark);
+        line-height: 1.6;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0;
+        list-style: none;
+      }
+
+      .tag-list li {
+        padding: 9px 12px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: white;
+      }
+
+      .warning {
+        border-left: 6px solid var(--red);
+      }
+
+      .cta {
+        display: inline-flex;
+        margin-top: 10px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        color: white;
+        background: var(--teal);
+        text-decoration: none;
+        font-weight: 850;
+      }
+
+      footer {
+        padding: 28px 18px 42px;
+        color: #d8e7e4;
+        background: #121416;
+        text-align: center;
+      }
+
+      @media (max-width: 850px) {
+        .grid, .three, .diagram {
+          grid-template-columns: 1fr;
+        }
+
+        .arrow {
+          transform: rotate(90deg);
+        }
+
+        .hero {
+          min-height: 88vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <a class="home-link" href="index.html">Krishavh Labs</a>
+        <p class="eyebrow">ESP32 + MQTT + Python</p>
+        <h1>ESP32 Thermal Lab</h1>
+        <p class="subtitle">
+          A local temperature dashboard for cooling experiments. Small ESP32 boards send readings over Wi-Fi, a Python server stores them, and a browser shows what is getting hot or cooling down.
+        </p>
+        <div class="hero-stats">
+          <div class="stat"><strong>2+</strong><span>wireless ESP32 probes</span></div>
+          <div class="stat"><strong>0</strong><span>cloud accounts required</span></div>
+          <div class="stat"><strong>CSV</strong><span>export for science notebooks</span></div>
+          <div class="stat"><strong>Live</strong><span>cards, graph, and table</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="band">
+        <h2>Why Build This?</h2>
+        <p>
+          A computer can feel cool on one side and hot on the other. Guessing is not enough. This project lets you place tiny sensors around a machine, then watch the numbers change when you move a fan, open a vent, or run a heavy workload.
+        </p>
+        <p>
+          The first test used two ESP32 boards near a DGX Spark system, but the design is general. You can use it for a gaming PC, server rack, refrigerator, plant box, water loop, or classroom science project.
+        </p>
+      </section>
+
+      <section class="band">
+        <h2>How It Works</h2>
+        <div class="diagram" aria-label="System diagram">
+          <div class="node">ESP32 probe<br />reads temp</div>
+          <div class="arrow">></div>
+          <div class="node">MQTT broker<br />relays message</div>
+          <div class="arrow">></div>
+          <div class="node">Python server<br />stores + serves data</div>
+        </div>
+        <ol class="steps" style="margin-top: 16px;">
+          <li>The ESP32 acts like a small wireless thermometer.</li>
+          <li>MQTT works like a shared message board on your local network.</li>
+          <li>SQLite stores every reading in one portable database file.</li>
+          <li>The web page updates automatically, so you can see heat changes as they happen.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Dashboard Snapshots</h2>
+        <div class="three">
+          <figure class="snap">
+            <img src="assets/esp32-thermal-lab/dashboard-wide.png" alt="Wide screenshot of the ESP32 Thermal Lab dashboard" />
+            <figcaption>The full dashboard shows live readings, a temperature graph, the data table, and a simple setup guide.</figcaption>
+          </figure>
+          <figure class="snap">
+            <img src="assets/esp32-thermal-lab/summary-cards.png" alt="Summary cards from the ESP32 Thermal Lab dashboard" />
+            <figcaption>Summary cards answer the first questions: how many devices are live, what is hottest, and whether cooling looks stable.</figcaption>
+          </figure>
+          <figure class="snap tall">
+            <img src="assets/esp32-thermal-lab/dashboard-mobile.png" alt="Mobile screenshot of the ESP32 Thermal Lab dashboard" />
+            <figcaption>The dashboard also works on a phone, which is useful when you are moving probes or checking a machine across the room.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="band">
+          <h2>What Is an ESP32?</h2>
+          <p>
+            An ESP32 is a tiny computer board with Wi-Fi built in. You can plug it into USB, program it once, and let it send sensor data every few seconds. In this project, each ESP32 has a name like <strong>rack-inlet</strong> or <strong>desk-outlet</strong>.
+          </p>
+          <p>
+            Think of it as a digital thermometer that can talk to your computer without a long cable.
+          </p>
+        </article>
+        <article class="band">
+          <h2>What Is MQTT?</h2>
+          <p>
+            MQTT is a simple way for devices to send messages. The ESP32 publishes a message to a topic, and the Python dashboard subscribes to that topic. It is lightweight, fast, and good for small devices.
+          </p>
+          <pre>Topic:
+esp32/desk-outlet/telemetry
+
+Message:
+{
+  "device": "desk-outlet",
+  "ambient_c": 24.8,
+  "outlet_c": 33.4,
+  "rssi": -54
+}</pre>
+        </article>
+      </section>
+
+      <section class="band">
+        <h2>What You Can Monitor</h2>
+        <ul class="tag-list">
+          <li>Room temperature</li>
+          <li>PC or server airflow</li>
+          <li>GPU and CPU cooling tests</li>
+          <li>Freezer or fridge checks</li>
+          <li>Plant and soil temperature</li>
+          <li>Water cooling experiments</li>
+          <li>Science fair data logs</li>
+        </ul>
+      </section>
+
+      <section class="grid">
+        <article class="band">
+          <h2>Get Started</h2>
+          <ol class="steps">
+            <li>Flash each ESP32 with a unique device name.</li>
+            <li>Run an MQTT broker on your local network.</li>
+            <li>Start the dashboard server with Python.</li>
+            <li>Open the dashboard in a browser and move probes while watching the graph.</li>
+          </ol>
+        </article>
+        <article class="band">
+          <h2>Run Command</h2>
+          <pre>python3 /home/onikita/projects/esp32-thermal-lab/server.py</pre>
+          <p>
+            This project is local-first. No internet is required after setup. No cloud account is needed. Your readings stay on your machine.
+          </p>
+          <a class="cta" href="index.html">Back to Krishavh Labs</a>
+        </article>
+      </section>
+
+      <section class="band">
+        <h2>Technical Details</h2>
+        <p>
+          The server uses Python, SQLite, and the Mosquitto MQTT tools. The dashboard uses plain HTML, CSS, and JavaScript. There is no framework and no build step. You can add more ESP32 boards by giving each one a new device name and publishing to the same MQTT broker.
+        </p>
+        <p>
+          Temperature fields ending in <strong>_c</strong> are stored as Celsius. The dashboard can switch between Celsius and Fahrenheit, and it can download recent readings as a CSV file for spreadsheets or reports.
+        </p>
+      </section>
+
+      <section class="band warning">
+        <h2>Safety Notes</h2>
+        <p>
+          Water and electricity do not mix. Keep ESP32 boards, USB cables, and computers away from water, pumps, and condensation. Do not open a power supply. Do not disable thermal shutdown just to collect more data. If a reading gets too hot, stop the test and check airflow first.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      Built for learning, cooling experiments, and local-first data logging.
+    </footer>
+  </body>
+</html>
