@@ -241,6 +241,7 @@ class AppState:
 class ThermalStore:
     def __init__(self, state: AppState):
         self.state = state
+        self._machine_poll_count = 0  # tracks polls for periodic retention purge
         init_db(state.db_path)
 
     def insert(self, *, topic: str, payload: str, rows: list[dict[str, Any]], update_mqtt: bool = True) -> None:
@@ -616,6 +617,18 @@ class MachineWorker(threading.Thread):
                 consecutive_failures += 1
 
             self.stop_event.wait(self.state.machine_interval)
+
+            # Periodic retention purge: check every 10 successful polls
+            if rows and consecutive_failures == 0 and self.state.machine_last_poll_at is not None:
+                poll_count = self.store._machine_poll_count + 1
+                self.store._machine_poll_count = poll_count
+                if poll_count % 10 == 0:
+                    try:
+                        deleted = self.store.purge_retention()
+                        if deleted:
+                            self.state.machine_error = f"Retention purge: removed {deleted} old rows"
+                    except Exception:
+                        pass
 
 
 def json_response(handler: BaseHTTPRequestHandler, obj: Any, status: HTTPStatus = HTTPStatus.OK) -> None:
