@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ESP32 Thermal Lab</title>
+  <style>
+    :root {
+      --bg: #171717;
+      --panel: #f5f3ee;
+      --panel-2: #ffffff;
+      --ink: #22201c;
+      --muted: #706b61;
+      --line: #d8d2c5;
+      --accent: #0f766e;
+      --accent-2: #b45309;
+      --hot: #dc2626;
+      --warn: #d97706;
+      --cool: #0284c7;
+      --good: #15803d;
+      --shadow: 0 16px 48px rgba(0,0,0,.18);
+      --soft-shadow: 0 10px 28px rgba(0,0,0,.11);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #ebe6dc;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 18px;
+      padding: 18px 22px;
+      color: #f9fafb;
+      background: #171717;
+      border-bottom: 4px solid #0f766e;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: 760;
+      letter-spacing: 0;
+    }
+
+    .subhead {
+      margin-top: 4px;
+      color: #c9c3b8;
+      font-size: 13px;
+    }
+
+    .status {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      font-size: 12px;
+    }
+
+    .pill {
+      min-height: 30px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      color: #f8fafc;
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.16);
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--warn);
+    }
+
+    .dot.live { background: #22c55e; }
+
+    main {
+      width: min(1440px, 100%);
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 650;
+    }
+
+    select, input, button {
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--ink);
+      background: var(--panel-2);
+      padding: 0 10px;
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+      font-weight: 700;
+      background: #0f766e;
+      color: white;
+      border-color: #0f766e;
+    }
+
+    .unit-toggle {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+      height: 38px;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel-2);
+    }
+
+    .unit-toggle button {
+      height: 28px;
+      padding: 0 8px;
+      color: var(--muted);
+      background: transparent;
+      border: 0;
+      border-radius: 4px;
+    }
+
+    .unit-toggle button.active {
+      color: white;
+      background: var(--accent);
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .summary-card {
+      min-height: 92px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fffdf8;
+      box-shadow: var(--soft-shadow);
+    }
+
+    .summary-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .summary-value {
+      margin-top: 6px;
+      font-size: 24px;
+      line-height: 1.05;
+      font-weight: 850;
+      font-variant-numeric: tabular-nums;
+      overflow-wrap: anywhere;
+    }
+
+    .summary-note {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .spotlight {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 14px;
+      padding: 14px 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent-2);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .spot-label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+      text-transform: uppercase;
+    }
+
+    .spot-name {
+      margin-top: 3px;
+      font-size: 15px;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .spot-value {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 850;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 340px minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .panel h2 {
+      margin: 0;
+      padding: 14px 14px 10px;
+      font-size: 15px;
+      letter-spacing: 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .devices {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+    }
+
+    .device {
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent);
+      border-radius: 7px;
+      padding: 10px;
+    }
+
+    .device.hot { border-left-color: var(--hot); }
+    .device.warn { border-left-color: var(--warn); }
+    .device.cool { border-left-color: var(--cool); }
+    .device.no-signal {
+      border-left-color: #6b7280;
+      opacity: .78;
+    }
+
+    .device-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .device-name {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      font-weight: 800;
+      font-size: 15px;
+    }
+
+    .age {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .metric-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
+      padding: 6px 0;
+      border-top: 1px solid #ece7dd;
+    }
+
+    .metric-name {
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .metric-value {
+      font-variant-numeric: tabular-nums;
+      font-weight: 800;
+      font-size: 17px;
+    }
+
+    .metric-value.no-signal {
+      color: #6b7280;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .chart-wrap {
+      height: min(58vh, 620px);
+      min-height: 390px;
+      padding: 12px;
+    }
+
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      background: #fffdf8;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .table-wrap {
+      margin-top: 14px;
+      overflow: auto;
+      max-height: 320px;
+    }
+
+    .guide {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
+      gap: 14px;
+    }
+
+    .guide-body {
+      padding: 14px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .guide-body p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+
+    .steps {
+      display: grid;
+      gap: 9px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: step;
+    }
+
+    .steps li {
+      counter-increment: step;
+      position: relative;
+      padding: 10px 10px 10px 42px;
+      min-height: 42px;
+      border: 1px solid #ece7dd;
+      border-radius: 7px;
+      background: var(--panel-2);
+      color: var(--ink);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      width: 22px;
+      height: 22px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: white;
+      background: var(--accent);
+      font-weight: 800;
+      font-size: 12px;
+    }
+
+    .codebox {
+      margin: 0;
+      padding: 12px;
+      overflow: auto;
+      border-radius: 7px;
+      border: 1px solid #2f3a45;
+      background: #101418;
+      color: #e5edf5;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      background: var(--panel-2);
+    }
+
+    th, td {
+      text-align: left;
+      padding: 9px 10px;
+      border-bottom: 1px solid #ece7dd;
+      white-space: nowrap;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      background: #f5f3ee;
+      z-index: 1;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .empty {
+      padding: 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .topbar, .grid, .toolbar, .spotlight, .summary, .guide {
+        grid-template-columns: 1fr;
+      }
+
+      .status { justify-content: flex-start; }
+      .chart-wrap { height: 430px; }
+      .spot-value { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>ESP32 Thermal Lab</h1>
+      <div class="subhead">Wireless temperature sensors for servers, PCs, rooms, and cooling experiments</div>
+    </div>
+    <div class="status">
+      <span class="pill"><span id="live-dot" class="dot"></span><span id="mqtt-state">waiting</span></span>
+      <span class="pill" id="broker">broker</span>
+      <span class="pill" id="sample-count">0 samples</span>
+      <span class="pill" id="last-message">no readings</span>
+      <a class="pill" href="/about">About</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <label>Device
+        <select id="device-filter"><option value="all">All devices</option></select>
+      </label>
+      <label>Metric
+        <select id="metric-filter"><option value="all">All metrics</option></select>
+      </label>
+      <label>Window
+        <select id="hours-filter">
+          <option value="1">1 hour</option>
+          <option value="6" selected>6 hours</option>
+          <option value="24">24 hours</option>
+          <option value="72">3 days</option>
+          <option value="168">7 days</option>
+        </select>
+      </label>
+      <label>Units
+        <span class="unit-toggle" role="group" aria-label="Temperature units">
+          <button id="unit-c" type="button" class="active" data-unit="c">°C</button>
+          <button id="unit-f" type="button" data-unit="f">°F</button>
+        </span>
+      </label>
+      <label>Data
+        <button id="download-csv" type="button">Download CSV</button>
+      </label>
+    </section>
+
+    <section class="summary" aria-label="Thermal summary">
+      <article class="summary-card">
+        <div class="summary-label">Live devices</div>
+        <div id="summary-devices" class="summary-value">--</div>
+        <div class="summary-note">ESP32 probes plus optional machine sensors.</div>
+      </article>
+      <article class="summary-card">
+        <div class="summary-label">Hottest reading</div>
+        <div id="summary-hot" class="summary-value">--</div>
+        <div id="summary-hot-note" class="summary-note">Waiting for data.</div>
+      </article>
+      <article class="summary-card">
+        <div class="summary-label">ESP32 signal</div>
+        <div id="summary-rssi" class="summary-value">--</div>
+        <div class="summary-note">Closer to 0 dBm means stronger Wi-Fi.</div>
+      </article>
+      <article class="summary-card">
+        <div class="summary-label">Cooling status</div>
+        <div id="summary-status" class="summary-value">--</div>
+        <div id="summary-status-note" class="summary-note">Below 70°C is usually comfortable for many lab tests.</div>
+      </article>
+    </section>
+
+    <section class="spotlight" aria-live="polite">
+      <div>
+        <div class="spot-label">Current reading</div>
+        <div id="spot-name" class="spot-name">Waiting for ESP32 data</div>
+      </div>
+      <div id="spot-value" class="spot-value">--</div>
+    </section>
+
+    <section class="grid">
+      <aside class="panel">
+        <h2>Current Readings</h2>
+        <div id="devices" class="devices"></div>
+      </aside>
+
+      <section class="panel">
+        <h2>Temperature History</h2>
+        <div class="chart-wrap">
+          <canvas id="chart"></canvas>
+        </div>
+      </section>
+    </section>
+
+    <section class="panel table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Device</th>
+            <th>Metric</th>
+            <th>Temp</th>
+            <th>RSSI</th>
+            <th>Topic</th>
+          </tr>
+        </thead>
+        <tbody id="samples"></tbody>
+      </table>
+    </section>
+
+    <section class="guide">
+      <article class="panel">
+        <h2>Use This With Any ESP32</h2>
+        <div class="guide-body">
+          <p>An ESP32 is a tiny Wi-Fi computer. Put one near the air going into a machine, another near the hot air coming out, and this page turns the readings into a live cooling story.</p>
+          <ol class="steps">
+            <li>Flash each ESP32 with a unique device name like <strong>rack-inlet</strong> or <strong>desk-outlet</strong>.</li>
+            <li>Send MQTT messages to the broker using the topic <strong>esp32/&lt;device-id&gt;/telemetry</strong>.</li>
+            <li>Publish temperatures in Celsius. The dashboard can show Celsius or Fahrenheit.</li>
+            <li>Move fans, vents, or probe locations, then watch whether the graph rises or falls.</li>
+          </ol>
+        </div>
+      </article>
+      <article class="panel">
+        <h2>Example MQTT Payload</h2>
+        <div class="guide-body">
+          <pre class="codebox">Topic:
+esp32/desk-outlet/telemetry
+
+Payload:
+{
+  "device": "desk-outlet",
+  "ambient_c": 24.8,
+  "outlet_c": 33.4,
+  "rssi": -54
+}</pre>
+          <p>Names ending in <strong>_c</strong> are saved as Celsius readings, so you can add sensors like <strong>case_c</strong>, <strong>inlet_c</strong>, or <strong>probe_c</strong>.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

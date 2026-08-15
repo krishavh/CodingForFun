@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Thermal Lab</title>
+  <style>
+    :root {
+      --ink: #1f2933;
+      --muted: #667085;
+      --bg: #efe9dd;
+      --paper: #fffdf8;
+      --line: #d8d2c5;
+      --accent: #0f766e;
+      --warm: #b45309;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--bg); }
+    header { padding: 28px 20px; color: white; background: #171717; border-bottom: 4px solid var(--accent); }
+    .wrap { width: min(1040px, 100%); margin: 0 auto; }
+    nav { margin-bottom: 18px; }
+    nav a { color: #d7f5ef; text-decoration: none; font-weight: 750; }
+    h1 { margin: 0; font-size: clamp(2rem, 5vw, 4rem); line-height: 1; letter-spacing: 0; }
+    .lead { max-width: 760px; margin: 14px 0 0; color: #d6d3cd; font-size: 1.1rem; line-height: 1.6; }
+    main { padding: 22px 20px 42px; }
+    section { margin-top: 16px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
+    h2 { margin: 0 0 10px; font-size: 1.35rem; }
+    p, li { color: var(--muted); line-height: 1.65; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .steps { display: grid; gap: 10px; padding: 0; list-style: none; counter-reset: step; }
+    .steps li { counter-increment: step; position: relative; min-height: 46px; padding: 10px 10px 10px 46px; border: 1px solid #ece7dd; border-radius: 7px; background: white; }
+    .steps li::before { content: counter(step); position: absolute; left: 10px; top: 10px; width: 25px; height: 25px; display: grid; place-items: center; border-radius: 50%; color: white; background: var(--accent); font-weight: 800; }
+    pre { overflow: auto; padding: 14px; border-radius: 7px; color: #e5edf5; background: #101418; line-height: 1.55; }
+    .diagram { font-size: .92rem; }
+    .callout { border-left: 5px solid var(--warm); }
+    @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav><a href="/">Back to dashboard</a></nav>
+      <h1>Thermal Lab</h1>
+      <p class="lead">Real-time temperature monitoring using ESP32 boards, MQTT, SQLite, and a simple browser dashboard. It works for server cooling, room tests, freezer checks, plant experiments, or any project where temperature changes matter.</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section>
+      <h2>How It Works</h2>
+      <ol class="steps">
+        <li>An ESP32 reads a temperature value from its board or from a connected sensor.</li>
+        <li>The ESP32 sends a small JSON message over Wi-Fi using MQTT.</li>
+        <li>The Python server listens to MQTT and stores each reading in SQLite.</li>
+        <li>Your browser asks the server for the newest data and draws cards, a chart, and a table.</li>
+      </ol>
+      <pre class="diagram">[ESP32 probe] --Wi-Fi--> [MQTT broker] --> [Python server] --> [SQLite] --> [Browser]</pre>
+    </section>
+    <section class="grid">
+      <div>
+        <h2>What Is an ESP32?</h2>
+        <p>An ESP32 is a tiny computer with built-in Wi-Fi. You can program it once, power it with USB, and let it send sensor readings every few seconds. In this project, it acts like a wireless thermometer.</p>
+      </div>
+      <div>
+        <h2>What Is MQTT?</h2>
+        <p>MQTT is a lightweight message system. Think of it like a shared bulletin board. The ESP32 posts a reading to a topic, and the dashboard subscribes to that topic to read it.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Message Format</h2>
+      <p>Send JSON to a topic like <strong>esp32/desk-outlet/telemetry</strong>. Any key ending in <strong>_c</strong> is treated as Celsius.</p>
+      <pre>{
+  "device": "desk-outlet",
+  "ambient_c": 24.8,
+  "outlet_c": 33.4,
+  "rssi": -54
+}</pre>
+    </section>
+    <section class="callout">
+      <h2>Cooling Safety</h2>
+      <p>Keep water away from electronics. Do not open power supplies. Do not disable thermal shutdown. If a CPU, GPU, or case reading climbs above your safe limit, stop the test and check airflow before continuing.</p>
+    </section>
+  </main>
+</body>
+</html>
