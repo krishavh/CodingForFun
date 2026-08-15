@@ -1,5 +1,6 @@
 # Daily Terminal Drops
 
+- 2026-08-15 — Silent Circuit: Word Forge (`terminal/daily/2026_08_15_silent_circuit.py`)
 - 2026-08-14 — Golden Echo: Word Forge (`terminal/daily/2026_08_14_golden_echo.py`)
 - 2026-08-13 — Crimson Vault: Word Forge (`terminal/daily/2026_08_13_crimson_vault.py`)
 - 2026-08-12 — Amber Glyph: Vault Code (`terminal/daily/2026_08_12_amber_glyph.py`)
