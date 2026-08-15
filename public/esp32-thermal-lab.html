@@ -419,12 +419,12 @@ Message:
           </ol>
         </article>
         <article class="band">
-          <h2>Run Command</h2>
-          <pre>python3 /home/onikita/projects/esp32-thermal-lab/server.py</pre>
+          <h2>How to Run</h2>
+          <pre>python3 server.py</pre>
           <p>
             This project is local-first. No internet is required after setup. No cloud account is needed. Your readings stay on your machine.
           </p>
-          <a class="cta" href="index.html">Back to Krishavh Labs</a>
+          <a class="cta" href="https://github.com/krishavh/CodingForFun">View on GitHub</a>
         </article>
       </section>
 
@@ -435,6 +435,73 @@ Message:
         </p>
         <p>
           Temperature fields ending in <strong>_c</strong> are stored as Celsius. The dashboard can switch between Celsius and Fahrenheit, and it can download recent readings as a CSV file for spreadsheets or reports.
+        </p>
+      </section>
+
+      <section class="band">
+        <h2>Recent Improvements</h2>
+        <p>
+          The dashboard received eight architectural improvements to make it more reliable and faster:
+        </p>
+        <ol class="steps">
+          <li>MQTT stderr is now drained in a background thread so the subscriber never blocks.</li>
+          <li>Hardware polling uses exponential backoff (5→10→20 seconds) and stops after three consecutive failures.</li>
+          <li>Temperature values are validated to reject NaN and Infinity before they enter the database.</li>
+          <li>Duplicate readings from the same timestamp are deduplicated using a smarter SQL partition.</li>
+          <li>The database is purged periodically, keeping only the last 30 days of data.</li>
+          <li>Live updates use keepalive pings so browser tabs never hang indefinitely.</li>
+          <li>Dashboard refresh is debounced so rapid events don't overwhelm the UI.</li>
+          <li>All data series are deduplicated before storage for cleaner graphs.</li>
+        </ol>
+      </section>
+
+      <section class="grid">
+        <article class="band">
+          <h2>Known Limitations</h2>
+          <p>
+            The ESP32 internal temperature sensor measures the chip, not the air. Readings will always be higher than room temperature, especially under load. For true ambient measurements, add an external sensor like a DS18B20 or BMP280.
+          </p>
+          <p>
+            This is a local-only project. There is no mobile app, no cloud storage, and no remote access. To view the dashboard from another machine, port-forward your router or copy the database file.
+          </p>
+        </article>
+        <article class="band">
+          <h2>Troubleshooting</h2>
+          <ul>
+            <li><strong>No readings appear:</strong> Check that the ESP32 is on the same network as the broker.</li>
+            <li><strong>Graph looks empty:</strong> Wait for a full minute — the dashboard needs data points.</li>
+            <li><strong>Temperature seems wrong:</strong> The ESP32 chip is warm by design. Try an external sensor.</li>
+            <li><strong>Dashboard won't load:</strong> Ensure port 8765 is open in any firewall.</li>
+            <li><strong>CSV download fails:</strong> Clear the filter dropdowns and try again with data in the database.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="band">
+        <h2>Data Model</h2>
+        <p>
+          Every reading is stored as a row with a timestamp, device name, metric type, value in Celsius, humidity, battery level, and signal strength. The dashboard groups readings by device and metric so you can compare different sensors side by side.
+        </p>
+        <pre>Column        | Type    | Description
+---------------|---------|---------------------------
+ts_epoch      | INTEGER | Seconds since Unix epoch
+device        | TEXT    | Unique probe identifier
+metric        | TEXT    | Reading type (ambient, gpu, etc.)
+value_c       | REAL    | Temperature in Celsius
+humidity      | REAL    | Relative humidity %
+battery       | REAL    | Battery voltage (if portable)
+rssi          | REAL    | Wi-Fi signal strength
+topic         | TEXT    | MQTT topic this came from
+raw_payload   | TEXT    | Original JSON message</pre>
+      </section>
+
+      <section class="band">
+        <h2>Expand It</h2>
+        <p>
+          Add a new ESP32 by changing the device name in the firmware and restarting. The dashboard will pick it up automatically. To monitor new kinds of data, extend the MQTT topic pattern and add a new metric type in the parsing logic. The server supports any text-based format on the same broker.
+        </p>
+        <p>
+          For advanced setups, connect the server to a cron job that runs the dashboard on boot, or containerize it with the provided Dockerfile. The SQLite database file can also be backed up manually or synced via rsync.
         </p>
       </section>
 
