@@ -504,13 +504,25 @@ document.querySelectorAll("[data-unit]").forEach((item) => {
   item.classList.toggle("active", item.dataset.unit === state.unit);
 });
 
+// Debounce flag: prevent SSE onmessage from hammering refreshAll()
+// while the periodic poll is already running.
+let refreshing = false;
+function debouncedRefresh() {
+  if (refreshing) return;
+  refreshing = true;
+  refreshAll()
+    .finally(() => {
+      refreshing = false;
+    });
+}
+
 loadDeviceOptions();
-refreshAll();
-setInterval(refreshAll, 3000);
+debouncedRefresh();
+setInterval(debouncedRefresh, 3000);
 
 try {
   const events = new EventSource("/api/events");
-  events.onmessage = () => refreshAll();
+  events.onmessage = () => debouncedRefresh();
 } catch (_) {
   // Polling above is enough when EventSource is unavailable.
 }
