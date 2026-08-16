@@ -63,6 +63,6 @@ python3 terminal/dungeon_dash.py
 ## Daily Terminal Drops
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-08-15 — Silent Circuit: Word Forge (`terminal/daily/2026_08_15_silent_circuit.py`)
+Latest: 2026-08-16 — Obsidian Cipher: Vault Code (`terminal/daily/2026_08_16_obsidian_cipher.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
