@@ -68,3 +68,5 @@ See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
 
 Updated today's drop: **Violet Core: Reactor Watch** — 2026-08-16 — `terminal/daily/2026_08_16_violet_core_reactor_watch.py`
+
+Updated today's drop: **Cinder Reach: Salvage Run** — 2026-08-17 — `terminal/daily/2026_08_17_cinder_reach_salvage_run.py`

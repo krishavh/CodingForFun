@@ -1,3 +1,4 @@
+- **2026-08-17** — Cinder Reach: Salvage Run — `terminal/daily/2026_08_17_cinder_reach_salvage_run.py`
 - **2026-08-16** — Violet Core: Reactor Watch — `terminal/daily/2026_08_16_violet_core_reactor_watch.py`
 # Daily Terminal Drops
 
