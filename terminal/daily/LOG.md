@@ -1,3 +1,4 @@
+- **2026-08-16** — Violet Core: Reactor Watch — `terminal/daily/2026_08_16_violet_core_reactor_watch.py`
 # Daily Terminal Drops
 
 - 2026-08-16 — Obsidian Cipher: Vault Code (`terminal/daily/2026_08_16_obsidian_cipher.py`)
