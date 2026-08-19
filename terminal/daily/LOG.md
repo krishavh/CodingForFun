@@ -1,3 +1,4 @@
+- **2026-08-19** — The Last Alchemist: Cinnabar's Rose — `terminal/daily/2026_08_19_the_last_alchemist_cinnabar_s_rose.py`
 - **2026-08-18** — Salt Road Gambler: The Midnight Crossing — `terminal/daily/2026_08_18_salt_road_gambler_the_midnight_crossing.py`
 - **2026-08-17** — Cinder Reach: Salvage Run — `terminal/daily/2026_08_17_cinder_reach_salvage_run.py`
 - **2026-08-16** — Violet Core: Reactor Watch — `terminal/daily/2026_08_16_violet_core_reactor_watch.py`

@@ -72,3 +72,5 @@ Updated today's drop: **Violet Core: Reactor Watch** — 2026-08-16 — `termina
 Updated today's drop: **Cinder Reach: Salvage Run** — 2026-08-17 — `terminal/daily/2026_08_17_cinder_reach_salvage_run.py`
 
 Updated today's drop: **Salt Road Gambler: The Midnight Crossing** — 2026-08-18 — `terminal/daily/2026_08_18_salt_road_gambler_the_midnight_crossing.py`
+
+Updated today's drop: **The Last Alchemist: Cinnabar's Rose** — 2026-08-19 — `terminal/daily/2026_08_19_the_last_alchemist_cinnabar_s_rose.py`
