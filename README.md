@@ -74,3 +74,5 @@ Updated today's drop: **Cinder Reach: Salvage Run** — 2026-08-17 — `terminal
 Updated today's drop: **Salt Road Gambler: The Midnight Crossing** — 2026-08-18 — `terminal/daily/2026_08_18_salt_road_gambler_the_midnight_crossing.py`
 
 Updated today's drop: **The Last Alchemist: Cinnabar's Rose** — 2026-08-19 — `terminal/daily/2026_08_19_the_last_alchemist_cinnabar_s_rose.py`
+
+Updated today's drop: **Threadbound: The Loom-Keeper's Gambit** — 2026-08-20 — `terminal/daily/2026_08_20_threadbound_the_loom_keeper_s_gambit.py`
