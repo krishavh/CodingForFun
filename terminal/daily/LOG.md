@@ -1,3 +1,4 @@
+- **2026-08-21** — Brine Grid: The Sunken Field — `terminal/daily/2026_08_21_brine_grid_the_sunken_field.py`
 - **2026-08-20** — Threadbound: The Loom-Keeper's Gambit — `terminal/daily/2026_08_20_threadbound_the_loom_keeper_s_gambit.py`
 - **2026-08-19** — The Last Alchemist: Cinnabar's Rose — `terminal/daily/2026_08_19_the_last_alchemist_cinnabar_s_rose.py`
 - **2026-08-18** — Salt Road Gambler: The Midnight Crossing — `terminal/daily/2026_08_18_salt_road_gambler_the_midnight_crossing.py`
