@@ -78,3 +78,5 @@ Updated today's drop: **The Last Alchemist: Cinnabar's Rose** — 2026-08-19 —
 Updated today's drop: **Threadbound: The Loom-Keeper's Gambit** — 2026-08-20 — `terminal/daily/2026_08_20_threadbound_the_loom_keeper_s_gambit.py`
 
 Updated today's drop: **Brine Grid: The Sunken Field** — 2026-08-21 — `terminal/daily/2026_08_21_brine_grid_the_sunken_field.py`
+
+Updated today's drop: **Nocturne Array: Ghost Frequencies** — 2026-08-22 — `terminal/daily/2026_08_22_nocturne_array_ghost_frequencies.py`
