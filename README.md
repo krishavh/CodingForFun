@@ -80,3 +80,5 @@ Updated today's drop: **Threadbound: The Loom-Keeper's Gambit** — 2026-08-20 �
 Updated today's drop: **Brine Grid: The Sunken Field** — 2026-08-21 — `terminal/daily/2026_08_21_brine_grid_the_sunken_field.py`
 
 Updated today's drop: **Nocturne Array: Ghost Frequencies** — 2026-08-22 — `terminal/daily/2026_08_22_nocturne_array_ghost_frequencies.py`
+
+Updated today's drop: **Stone Sibyl: The Last Light of the Courtyard** — 2026-08-23 — `terminal/daily/2026_08_23_stone_sibyl_the_last_light_of_the_courtyard.py`

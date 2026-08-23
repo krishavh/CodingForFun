@@ -1,3 +1,4 @@
+- **2026-08-23** — Stone Sibyl: The Last Light of the Courtyard — `terminal/daily/2026_08_23_stone_sibyl_the_last_light_of_the_courtyard.py`
 - **2026-08-22** — Nocturne Array: Ghost Frequencies — `terminal/daily/2026_08_22_nocturne_array_ghost_frequencies.py`
 - **2026-08-21** — Brine Grid: The Sunken Field — `terminal/daily/2026_08_21_brine_grid_the_sunken_field.py`
 - **2026-08-20** — Threadbound: The Loom-Keeper's Gambit — `terminal/daily/2026_08_20_threadbound_the_loom_keeper_s_gambit.py`
