@@ -84,3 +84,5 @@ Updated today's drop: **Nocturne Array: Ghost Frequencies** — 2026-08-22 — `
 Updated today's drop: **Stone Sibyl: The Last Light of the Courtyard** — 2026-08-23 — `terminal/daily/2026_08_23_stone_sibyl_the_last_light_of_the_courtyard.py`
 
 Updated today's drop: **Umber Spire: Borrowed Light** — 2026-08-24 — `terminal/daily/2026_08_24_umber_spire_borrowed_light.py`
+
+Updated today's drop: **Salt Meridian: The Lamp-Keeper's Vigil** — 2026-08-25 — `terminal/daily/2026_08_25_salt_meridian_the_lamp_keeper_s_vigil.py`
