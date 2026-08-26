@@ -1,3 +1,4 @@
+- **2026-08-26** — The Ash Road: The Mule-Runner's Ledger — `terminal/daily/2026_08_26_the_ash_road_the_mule_runner_s_ledger.py`
 - **2026-08-25** — Salt Meridian: The Lamp-Keeper's Vigil — `terminal/daily/2026_08_25_salt_meridian_the_lamp_keeper_s_vigil.py`
 - **2026-08-24** — Umber Spire: Borrowed Light — `terminal/daily/2026_08_24_umber_spire_borrowed_light.py`
 - **2026-08-23** — Stone Sibyl: The Last Light of the Courtyard — `terminal/daily/2026_08_23_stone_sibyl_the_last_light_of_the_courtyard.py`
