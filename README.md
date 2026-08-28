@@ -90,3 +90,5 @@ Updated today's drop: **Salt Meridian: The Lamp-Keeper's Vigil** — 2026-08-25 
 Updated today's drop: **The Ash Road: The Mule-Runner's Ledger** — 2026-08-26 — `terminal/daily/2026_08_26_the_ash_road_the_mule_runner_s_ledger.py`
 
 Updated today's drop: **Ember Watch: The Lantern-Keeper's Night** — 2026-08-28 — `terminal/daily/2026_08_28_ember_watch_the_lantern_keeper_s_night.py`
+
+Updated today's drop: **Tide Ledger: The Cipher of Nine Bells** — 2026-08-27 — `terminal/daily/2026_08_27_tide_ledger_the_cipher_of_nine_bells.py`
