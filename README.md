@@ -88,3 +88,5 @@ Updated today's drop: **Umber Spire: Borrowed Light** — 2026-08-24 — `termin
 Updated today's drop: **Salt Meridian: The Lamp-Keeper's Vigil** — 2026-08-25 — `terminal/daily/2026_08_25_salt_meridian_the_lamp_keeper_s_vigil.py`
 
 Updated today's drop: **The Ash Road: The Mule-Runner's Ledger** — 2026-08-26 — `terminal/daily/2026_08_26_the_ash_road_the_mule_runner_s_ledger.py`
+
+Updated today's drop: **Ember Watch: The Lantern-Keeper's Night** — 2026-08-28 — `terminal/daily/2026_08_28_ember_watch_the_lantern_keeper_s_night.py`
