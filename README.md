@@ -92,3 +92,5 @@ Updated today's drop: **The Ash Road: The Mule-Runner's Ledger** — 2026-08-26 
 Updated today's drop: **Ember Watch: The Lantern-Keeper's Night** — 2026-08-28 — `terminal/daily/2026_08_28_ember_watch_the_lantern_keeper_s_night.py`
 
 Updated today's drop: **Tide Ledger: The Cipher of Nine Bells** — 2026-08-27 — `terminal/daily/2026_08_27_tide_ledger_the_cipher_of_nine_bells.py`
+
+Updated today's drop: **Meridian Hall: The Gear-Spirit's Toll** — 2026-08-30 — `terminal/daily/2026_08_30_meridian_hall_the_gear_spirit_s_toll.py`
