@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-31",
+    "title": "The Windmill: Ballast & Grain",
+    "file": "terminal/daily/2026_08_31_the_windmill_ballast_grain.py",
+    "public_file": "daily/2026_08_31_the_windmill_ballast_grain.py"
+  },
+  {
     "date": "2026-08-30",
     "title": "Meridian Hall: The Gear-Spirit's Toll",
     "file": "terminal/daily/2026_08_30_meridian_hall_the_gear_spirit_s_toll.py",

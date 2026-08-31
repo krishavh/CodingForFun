@@ -1,3 +1,4 @@
+- **2026-08-31** — The Windmill: Ballast & Grain — `terminal/daily/2026_08_31_the_windmill_ballast_grain.py`
 - **2026-08-30** — Meridian Hall: The Gear-Spirit's Toll — `terminal/daily/2026_08_30_meridian_hall_the_gear_spirit_s_toll.py`
 - **2026-08-27** — Tide Ledger: The Cipher of Nine Bells — `terminal/daily/2026_08_27_tide_ledger_the_cipher_of_nine_bells.py`
 - **2026-08-28** — Ember Watch: The Lantern-Keeper's Night — `terminal/daily/2026_08_28_ember_watch_the_lantern_keeper_s_night.py`
