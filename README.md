@@ -96,3 +96,5 @@ Updated today's drop: **Tide Ledger: The Cipher of Nine Bells** — 2026-08-27 �
 Updated today's drop: **Meridian Hall: The Gear-Spirit's Toll** — 2026-08-30 — `terminal/daily/2026_08_30_meridian_hall_the_gear_spirit_s_toll.py`
 
 Updated today's drop: **The Windmill: Ballast & Grain** — 2026-08-31 — `terminal/daily/2026_08_31_the_windmill_ballast_grain.py`
+
+Updated today's drop: **The Glasshouse: Frost & Harvest** — 2026-09-02 — `terminal/daily/2026_09_02_the_glasshouse_frost_harvest.py`
