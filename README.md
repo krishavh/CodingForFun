@@ -98,3 +98,5 @@ Updated today's drop: **Meridian Hall: The Gear-Spirit's Toll** — 2026-08-30 �
 Updated today's drop: **The Windmill: Ballast & Grain** — 2026-08-31 — `terminal/daily/2026_08_31_the_windmill_ballast_grain.py`
 
 Updated today's drop: **The Glasshouse: Frost & Harvest** — 2026-09-02 — `terminal/daily/2026_09_02_the_glasshouse_frost_harvest.py`
+
+Updated today's drop: **The Light of Saint Verra: Smoke & Signal: guide the fleet home through fog with the shutter lamp** — 2026-09-03 — `terminal/daily/2026_09_03_the_light_of_saint_verra_smoke_signal_guide_the_fleet_home_through_fog_with_the_shutter_lamp.py`
