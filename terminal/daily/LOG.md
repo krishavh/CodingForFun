@@ -1,3 +1,4 @@
+- **2026-09-04** — Lantern Lines: Chain-burst the lamp grid before your matches run out — `terminal/daily/2026_09_04_lantern_lines_chain_burst_the_lamp_grid_before_your_matches_run_out.py`
 - **2026-09-03** — The Light of Saint Verra: Smoke & Signal: guide the fleet home through fog with the shutter lamp — `terminal/daily/2026_09_03_the_light_of_saint_verra_smoke_signal_guide_the_fleet_home_through_fog_with_the_shutter_lamp.py`
 - **2026-09-02** — The Glasshouse: Frost & Harvest — `terminal/daily/2026_09_02_the_glasshouse_frost_harvest.py`
 - **2026-08-31** — The Windmill: Ballast & Grain — `terminal/daily/2026_08_31_the_windmill_ballast_grain.py`

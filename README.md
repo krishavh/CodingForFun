@@ -100,3 +100,5 @@ Updated today's drop: **The Windmill: Ballast & Grain** — 2026-08-31 — `term
 Updated today's drop: **The Glasshouse: Frost & Harvest** — 2026-09-02 — `terminal/daily/2026_09_02_the_glasshouse_frost_harvest.py`
 
 Updated today's drop: **The Light of Saint Verra: Smoke & Signal: guide the fleet home through fog with the shutter lamp** — 2026-09-03 — `terminal/daily/2026_09_03_the_light_of_saint_verra_smoke_signal_guide_the_fleet_home_through_fog_with_the_shutter_lamp.py`
+
+Updated today's drop: **Lantern Lines: Chain-burst the lamp grid before your matches run out** — 2026-09-04 — `terminal/daily/2026_09_04_lantern_lines_chain_burst_the_lamp_grid_before_your_matches_run_out.py`
