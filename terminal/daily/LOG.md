@@ -1,3 +1,4 @@
+- **2026-09-07** — Tide Atlas: Ford the drowned road before the second breath — `terminal/daily/2026_09_07_tide_atlas_ford_the_drowned_road_before_the_second_breath.py`
 - **2026-09-06** — The Moultering Deep: Shed Your Skin or Be Shed — `terminal/daily/2026_09_06_the_moultering_deep_shed_your_skin_or_be_shed.py`
 - **2026-09-04** — Lantern Lines: Chain-burst the lamp grid before your matches run out — `terminal/daily/2026_09_04_lantern_lines_chain_burst_the_lamp_grid_before_your_matches_run_out.py`
 - **2026-09-03** — The Light of Saint Verra: Smoke & Signal: guide the fleet home through fog with the shutter lamp — `terminal/daily/2026_09_03_the_light_of_saint_verra_smoke_signal_guide_the_fleet_home_through_fog_with_the_shutter_lamp.py`

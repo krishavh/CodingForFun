@@ -104,3 +104,5 @@ Updated today's drop: **The Light of Saint Verra: Smoke & Signal: guide the flee
 Updated today's drop: **Lantern Lines: Chain-burst the lamp grid before your matches run out** — 2026-09-04 — `terminal/daily/2026_09_04_lantern_lines_chain_burst_the_lamp_grid_before_your_matches_run_out.py`
 
 Updated today's drop: **The Moultering Deep: Shed Your Skin or Be Shed** — 2026-09-06 — `terminal/daily/2026_09_06_the_moultering_deep_shed_your_skin_or_be_shed.py`
+
+Updated today's drop: **Tide Atlas: Ford the drowned road before the second breath** — 2026-09-07 — `terminal/daily/2026_09_07_tide_atlas_ford_the_drowned_road_before_the_second_breath.py`
