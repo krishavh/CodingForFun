@@ -1,3 +1,6 @@
+# Daily Terminal Drops
+
+- 2026-09-11 — Obsidian Echo: Signal Chase (`terminal/daily/2026_09_11_obsidian_echo.py`)
 - **2026-09-07** — Tide Atlas: Ford the drowned road before the second breath — `terminal/daily/2026_09_07_tide_atlas_ford_the_drowned_road_before_the_second_breath.py`
 - **2026-09-06** — The Moultering Deep: Shed Your Skin or Be Shed — `terminal/daily/2026_09_06_the_moultering_deep_shed_your_skin_or_be_shed.py`
 - **2026-09-04** — Lantern Lines: Chain-burst the lamp grid before your matches run out — `terminal/daily/2026_09_04_lantern_lines_chain_burst_the_lamp_grid_before_your_matches_run_out.py`
