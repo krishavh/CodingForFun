@@ -62,47 +62,16 @@ python3 terminal/dungeon_dash.py
 
 ## Daily Terminal Drops
 
-<!-- DAILY_DROP_START -->
-Latest: 2026-09-11 — Obsidian Echo: Signal Chase (`terminal/daily/2026_09_11_obsidian_echo.py`)
-See `terminal/daily/LOG.md` for history.
-<!-- DAILY_DROP_END -->
+- **2026-09-11** — Obsidian Echo: Signal Chase — `terminal/daily/2026_09_11_obsidian_echo.py`
+- **2026-09-10** — Hollow Compass: Tide Ledger — `terminal/daily/2026_09_10_hollow_compass_tide_ledger.py`
+- **2026-09-09** — Cinder Orchard: Graft Alchemist — `terminal/daily/2026_09_09_cinder_orchard_graft_alchemist.py`
+- **2026-09-08** — Lantern Vale: Rune Cartographer — `terminal/daily/2026_09_08_lantern_vale_rune_cartographer.py`
+- **2026-09-07** — Tide Atlas: Ford the drowned road before the second breath — `terminal/daily/2026_09_07_tide_atlas_ford_the_drowned_road_before_the_second_breath.py`
+- **2026-09-06** — The Moultering Deep: Shed Your Skin or Be Shed — `terminal/daily/2026_09_06_the_moultering_deep_shed_your_skin_or_be_shed.py`
+- **2026-09-04** — Lantern Lines: Chain-burst the lamp grid before your matches run out — `terminal/daily/2026_09_04_lantern_lines_chain_burst_the_lamp_grid_before_your_matches_run_out.py`
+- **2026-09-03** — The Light of Saint Verra: Smoke & Signal: guide the fleet home through fog with the shutter lamp — `terminal/daily/2026_09_03_the_light_of_saint_verra_smoke_signal_guide_the_fleet_home_through_fog_with_the_shutter_lamp.py`
+- **2026-09-02** — The Glasshouse: Frost & Harvest — `terminal/daily/2026_09_02_the_glasshouse_frost_harvest.py`
+- **2026-08-31** — The Windmill: Ballast & Grain — `terminal/daily/2026_08_31_the_windmill_ballast_grain.py`
+- **2026-08-30** — Meridian Hall: The Gear-Spirit's Toll — `terminal/daily/2026_08_30_meridian_hall_the_gear_spirit_s_toll.py`
+- **2026-08-28** — Ember Watch: The Lantern-Keeper's Night — `terminal/daily/2026_08_28_ember_watch_the_lantern_keeper_s_night.py`
 
-Updated today's drop: **Violet Core: Reactor Watch** — 2026-08-16 — `terminal/daily/2026_08_16_violet_core_reactor_watch.py`
-
-Updated today's drop: **Cinder Reach: Salvage Run** — 2026-08-17 — `terminal/daily/2026_08_17_cinder_reach_salvage_run.py`
-
-Updated today's drop: **Salt Road Gambler: The Midnight Crossing** — 2026-08-18 — `terminal/daily/2026_08_18_salt_road_gambler_the_midnight_crossing.py`
-
-Updated today's drop: **The Last Alchemist: Cinnabar's Rose** — 2026-08-19 — `terminal/daily/2026_08_19_the_last_alchemist_cinnabar_s_rose.py`
-
-Updated today's drop: **Threadbound: The Loom-Keeper's Gambit** — 2026-08-20 — `terminal/daily/2026_08_20_threadbound_the_loom_keeper_s_gambit.py`
-
-Updated today's drop: **Brine Grid: The Sunken Field** — 2026-08-21 — `terminal/daily/2026_08_21_brine_grid_the_sunken_field.py`
-
-Updated today's drop: **Nocturne Array: Ghost Frequencies** — 2026-08-22 — `terminal/daily/2026_08_22_nocturne_array_ghost_frequencies.py`
-
-Updated today's drop: **Stone Sibyl: The Last Light of the Courtyard** — 2026-08-23 — `terminal/daily/2026_08_23_stone_sibyl_the_last_light_of_the_courtyard.py`
-
-Updated today's drop: **Umber Spire: Borrowed Light** — 2026-08-24 — `terminal/daily/2026_08_24_umber_spire_borrowed_light.py`
-
-Updated today's drop: **Salt Meridian: The Lamp-Keeper's Vigil** — 2026-08-25 — `terminal/daily/2026_08_25_salt_meridian_the_lamp_keeper_s_vigil.py`
-
-Updated today's drop: **The Ash Road: The Mule-Runner's Ledger** — 2026-08-26 — `terminal/daily/2026_08_26_the_ash_road_the_mule_runner_s_ledger.py`
-
-Updated today's drop: **Ember Watch: The Lantern-Keeper's Night** — 2026-08-28 — `terminal/daily/2026_08_28_ember_watch_the_lantern_keeper_s_night.py`
-
-Updated today's drop: **Tide Ledger: The Cipher of Nine Bells** — 2026-08-27 — `terminal/daily/2026_08_27_tide_ledger_the_cipher_of_nine_bells.py`
-
-Updated today's drop: **Meridian Hall: The Gear-Spirit's Toll** — 2026-08-30 — `terminal/daily/2026_08_30_meridian_hall_the_gear_spirit_s_toll.py`
-
-Updated today's drop: **The Windmill: Ballast & Grain** — 2026-08-31 — `terminal/daily/2026_08_31_the_windmill_ballast_grain.py`
-
-Updated today's drop: **The Glasshouse: Frost & Harvest** — 2026-09-02 — `terminal/daily/2026_09_02_the_glasshouse_frost_harvest.py`
-
-Updated today's drop: **The Light of Saint Verra: Smoke & Signal: guide the fleet home through fog with the shutter lamp** — 2026-09-03 — `terminal/daily/2026_09_03_the_light_of_saint_verra_smoke_signal_guide_the_fleet_home_through_fog_with_the_shutter_lamp.py`
-
-Updated today's drop: **Lantern Lines: Chain-burst the lamp grid before your matches run out** — 2026-09-04 — `terminal/daily/2026_09_04_lantern_lines_chain_burst_the_lamp_grid_before_your_matches_run_out.py`
-
-Updated today's drop: **The Moultering Deep: Shed Your Skin or Be Shed** — 2026-09-06 — `terminal/daily/2026_09_06_the_moultering_deep_shed_your_skin_or_be_shed.py`
-
-Updated today's drop: **Tide Atlas: Ford the drowned road before the second breath** — 2026-09-07 — `terminal/daily/2026_09_07_tide_atlas_ford_the_drowned_road_before_the_second_breath.py`

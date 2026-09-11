@@ -6,6 +6,24 @@
     "public_file": "daily/2026_09_11_obsidian_echo.py"
   },
   {
+    "date": "2026-09-10",
+    "title": "Hollow Compass: Tide Ledger",
+    "file": "terminal/daily/2026_09_10_hollow_compass_tide_ledger.py",
+    "public_file": "daily/2026_09_10_hollow_compass_tide_ledger.py"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Cinder Orchard: Graft Alchemist",
+    "file": "terminal/daily/2026_09_09_cinder_orchard_graft_alchemist.py",
+    "public_file": "daily/2026_09_09_cinder_orchard_graft_alchemist.py"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Lantern Vale: Rune Cartographer",
+    "file": "terminal/daily/2026_09_08_lantern_vale_rune_cartographer.py",
+    "public_file": "daily/2026_09_08_lantern_vale_rune_cartographer.py"
+  },
+  {
     "date": "2026-09-07",
     "title": "Tide Atlas: Ford the drowned road before the second breath",
     "file": "terminal/daily/2026_09_07_tide_atlas_ford_the_drowned_road_before_the_second_breath.py",

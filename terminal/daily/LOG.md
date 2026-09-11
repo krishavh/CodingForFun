@@ -1,4 +1,7 @@
 # Daily Terminal Drops
+- **2026-09-10** — Hollow Compass: Tide Ledger — `terminal/daily/2026_09_10_hollow_compass_tide_ledger.py`
+- **2026-09-09** — Cinder Orchard: Graft Alchemist — `terminal/daily/2026_09_09_cinder_orchard_graft_alchemist.py`
+- **2026-09-08** — Lantern Vale: Rune Cartographer — `terminal/daily/2026_09_08_lantern_vale_rune_cartographer.py`
 
 - 2026-09-11 — Obsidian Echo: Signal Chase (`terminal/daily/2026_09_11_obsidian_echo.py`)
 - **2026-09-07** — Tide Atlas: Ford the drowned road before the second breath — `terminal/daily/2026_09_07_tide_atlas_ford_the_drowned_road_before_the_second_breath.py`
