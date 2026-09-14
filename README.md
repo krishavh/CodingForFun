@@ -75,3 +75,7 @@ python3 terminal/dungeon_dash.py
 - **2026-08-30** — Meridian Hall: The Gear-Spirit's Toll — `terminal/daily/2026_08_30_meridian_hall_the_gear_spirit_s_toll.py`
 - **2026-08-28** — Ember Watch: The Lantern-Keeper's Night — `terminal/daily/2026_08_28_ember_watch_the_lantern_keeper_s_night.py`
 
+
+## Latest drop
+
+**Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
