@@ -1,3 +1,4 @@
+- **2026-09-16** — Glasslight Sextant: Bearing & Shoals — `terminal/daily/2026_09_16_glasslight_sextant_bearing_shoals.py`
 - **2026-09-14** — Belltower Siege: Wave Defense — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 # Daily Terminal Drops
 - **2026-09-10** — Hollow Compass: Tide Ledger — `terminal/daily/2026_09_10_hollow_compass_tide_ledger.py`

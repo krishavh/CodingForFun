@@ -79,3 +79,5 @@ python3 terminal/dungeon_dash.py
 ## Latest drop
 
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
+
+Updated today's drop: **Glasslight Sextant: Bearing & Shoals** — 2026-09-16 — `terminal/daily/2026_09_16_glasslight_sextant_bearing_shoals.py`
