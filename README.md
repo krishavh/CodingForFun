@@ -81,3 +81,7 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 Updated today's drop: **Glasslight Sextant: Bearing & Shoals** — 2026-09-16 — `terminal/daily/2026_09_16_glasslight_sextant_bearing_shoals.py`
+
+Updated today's drop: **High Tide Heist: Tide Surge Heist** — 2026-09-16 — `terminal/daily/2026_09_16_high_tide_heist_tide_surge_heist.py`
+
+Updated today's drop: **Cellar of Nine Faucets: Dice on Draft** — 2026-09-17 — `terminal/daily/2026_09_17_cellar_of_nine_faucets_dice_on_draft.py`
