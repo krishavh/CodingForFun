@@ -3,3 +3,4 @@ node_modules
 data/*.sqlite
 terminal/.scores.json
 terminal/daily/cron.log
+__pycache__/
