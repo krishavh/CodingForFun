@@ -85,3 +85,7 @@ Updated today's drop: **Glasslight Sextant: Bearing & Shoals** — 2026-09-16 �
 Updated today's drop: **High Tide Heist: Tide Surge Heist** — 2026-09-16 — `terminal/daily/2026_09_16_high_tide_heist_tide_surge_heist.py`
 
 Updated today's drop: **Cellar of Nine Faucets: Dice on Draft** — 2026-09-17 — `terminal/daily/2026_09_17_cellar_of_nine_faucets_dice_on_draft.py`
+
+Updated today's drop: **Cairn of Echoes: The Weighted Climb: carry your cairn up a hidden mountain** — 2026-09-18 — `terminal/daily/2026_09_18_cairn_of_echoes_the_weighted_climb_carry_your_cairn_up_a_hidden_mountain.py`
+
+Updated today's drop: **Cairn of Echoes: The Weighted Climb** — 2026-09-18 — `terminal/daily/2026_09_18_cairn_of_echoes_the_weighted_climb.py`
