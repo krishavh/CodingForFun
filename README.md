@@ -89,3 +89,5 @@ Updated today's drop: **Cellar of Nine Faucets: Dice on Draft** — 2026-09-17 �
 Updated today's drop: **Cairn of Echoes: The Weighted Climb: carry your cairn up a hidden mountain** — 2026-09-18 — `terminal/daily/2026_09_18_cairn_of_echoes_the_weighted_climb_carry_your_cairn_up_a_hidden_mountain.py`
 
 Updated today's drop: **Cairn of Echoes: The Weighted Climb** — 2026-09-18 — `terminal/daily/2026_09_18_cairn_of_echoes_the_weighted_climb.py`
+
+Updated today's drop: **The Empress's Taster: Blend for Honour** — 2026-09-19 — `terminal/daily/2026_09_19_the_empress_s_taster_blend_for_honour.py`
