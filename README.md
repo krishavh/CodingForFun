@@ -91,3 +91,8 @@ Updated today's drop: **Cairn of Echoes: The Weighted Climb: carry your cairn up
 Updated today's drop: **Cairn of Echoes: The Weighted Climb** — 2026-09-18 — `terminal/daily/2026_09_18_cairn_of_echoes_the_weighted_climb.py`
 
 Updated today's drop: **The Empress's Taster: Blend for Honour** — 2026-09-19 — `terminal/daily/2026_09_19_the_empress_s_taster_blend_for_honour.py`
+
+<!-- DAILY_DROP_START -->
+Latest: 2026-09-21 — Velvet Circuit: Signal Chase (`terminal/daily/2026_09_21_velvet_circuit.py`)
+See `terminal/daily/LOG.md` for history.
+<!-- DAILY_DROP_END -->

@@ -1,3 +1,6 @@
+# Daily Terminal Drops
+
+- 2026-09-21 — Velvet Circuit: Signal Chase (`terminal/daily/2026_09_21_velvet_circuit.py`)
 - **2026-09-19** — The Empress's Taster: Blend for Honour — `terminal/daily/2026_09_19_the_empress_s_taster_blend_for_honour.py`
 - **2026-09-18** — Cairn of Echoes: The Weighted Climb — `terminal/daily/2026_09_18_cairn_of_echoes_the_weighted_climb.py`
 - **2026-09-17** — Cellar of Nine Faucets: Dice on Draft — `terminal/daily/2026_09_17_cellar_of_nine_faucets_dice_on_draft.py`
