@@ -1,3 +1,4 @@
+- **2026-09-26** — Lanternmouth Lagoon: Night-fishing memory game — `terminal/daily/2026_09_26_lanternmouth_lagoon_night_fishing_memory_game.py`
 # Daily Terminal Drops
 
 - 2026-09-21 — Velvet Circuit: Signal Chase (`terminal/daily/2026_09_21_velvet_circuit.py`)
