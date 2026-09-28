@@ -100,3 +100,5 @@ See `terminal/daily/LOG.md` for history.
 Updated today's drop: **Lanternmouth Lagoon: Night-fishing memory game** — 2026-09-26 — `terminal/daily/2026_09_26_lanternmouth_lagoon_night_fishing_memory_game.py`
 
 Updated today's drop: **Laundry Ghosts: Night-shift bill laundering at the Sprawlcoin laundromat** — 2026-09-27 — `terminal/daily/2026_09_27_laundry_ghosts_night_shift_bill_laundering_at_the_sprawlcoin_laundromat.py`
+
+Updated today's drop: **Sprocket Waffles: Morning Rush on the Conveyor** — 2026-09-28 — `terminal/daily/2026_09_28_sprocket_waffles_morning_rush_on_the_conveyor.py`
