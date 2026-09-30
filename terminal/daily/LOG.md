@@ -1,3 +1,4 @@
+- **2026-09-30** — Tide Cache: Stack driftwood before the sea takes it — `terminal/daily/2026_09_30_tide_cache_stack_driftwood_before_the_sea_takes_it.py`
 - **2026-09-29** — Mushroom Cellar: Hold the steps against the Mold Duke — `terminal/daily/2026_09_29_mushroom_cellar_hold_the_steps_against_the_mold_duke.py`
 - **2026-09-28** — Sprocket Waffles: Morning Rush on the Conveyor — `terminal/daily/2026_09_28_sprocket_waffles_morning_rush_on_the_conveyor.py`
 - **2026-09-27** — Laundry Ghosts: Night-shift bill laundering at the Sprawlcoin laundromat — `terminal/daily/2026_09_27_laundry_ghosts_night_shift_bill_laundering_at_the_sprawlcoin_laundromat.py`

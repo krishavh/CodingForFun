@@ -104,3 +104,5 @@ Updated today's drop: **Laundry Ghosts: Night-shift bill laundering at the Spraw
 Updated today's drop: **Sprocket Waffles: Morning Rush on the Conveyor** — 2026-09-28 — `terminal/daily/2026_09_28_sprocket_waffles_morning_rush_on_the_conveyor.py`
 
 Updated today's drop: **Mushroom Cellar: Hold the steps against the Mold Duke** — 2026-09-29 — `terminal/daily/2026_09_29_mushroom_cellar_hold_the_steps_against_the_mold_duke.py`
+
+Updated today's drop: **Tide Cache: Stack driftwood before the sea takes it** — 2026-09-30 — `terminal/daily/2026_09_30_tide_cache_stack_driftwood_before_the_sea_takes_it.py`
