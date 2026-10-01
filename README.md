@@ -106,3 +106,5 @@ Updated today's drop: **Sprocket Waffles: Morning Rush on the Conveyor** — 202
 Updated today's drop: **Mushroom Cellar: Hold the steps against the Mold Duke** — 2026-09-29 — `terminal/daily/2026_09_29_mushroom_cellar_hold_the_steps_against_the_mold_duke.py`
 
 Updated today's drop: **Tide Cache: Stack driftwood before the sea takes it** — 2026-09-30 — `terminal/daily/2026_09_30_tide_cache_stack_driftwood_before_the_sea_takes_it.py`
+
+Updated today's drop: **Paper Pilots: Kite-duel the Windwizard on the gustberry meadow** — 2026-10-01 — `terminal/daily/2026_10_01_paper_pilots_kite_duel_the_windwizard_on_the_gustberry_meadow.py`
