@@ -108,3 +108,5 @@ Updated today's drop: **Mushroom Cellar: Hold the steps against the Mold Duke** 
 Updated today's drop: **Tide Cache: Stack driftwood before the sea takes it** — 2026-09-30 — `terminal/daily/2026_09_30_tide_cache_stack_driftwood_before_the_sea_takes_it.py`
 
 Updated today's drop: **Paper Pilots: Kite-duel the Windwizard on the gustberry meadow** — 2026-10-01 — `terminal/daily/2026_10_01_paper_pilots_kite_duel_the_windwizard_on_the_gustberry_meadow.py`
+
+Updated today's drop: **Lumen Lichen: Cover the garden wall before the gardener scrapes** — 2026-10-02 — `terminal/daily/2026_10_02_lumen_lichen_cover_the_garden_wall_before_the_gardener_scrapes.py`
