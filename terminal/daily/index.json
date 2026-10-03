@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-03",
+    "title": "Pickle Pit Boss: Tip the oldest barrel before the brine blows",
+    "file": "terminal/daily/2026_10_03_pickle_pit_boss_tip_the_oldest_barrel_before_the_brine_blows.py",
+    "public_file": "daily/2026_10_03_pickle_pit_boss_tip_the_oldest_barrel_before_the_brine_blows.py"
+  },
+  {
     "date": "2026-10-02",
     "title": "Lumen Lichen: Cover the garden wall before the gardener scrapes",
     "file": "terminal/daily/2026_10_02_lumen_lichen_cover_the_garden_wall_before_the_gardener_scrapes.py",
