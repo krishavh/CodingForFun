@@ -1,3 +1,4 @@
+- **2026-10-04** — Sushi Sprint: Match the pairs before the patience runs dry — `terminal/daily/2026_10_04_sushi_sprint_match_the_pairs_before_the_patience_runs_dry.py`
 - **2026-10-03** — Pickle Pit Boss: Tip the oldest barrel before the brine blows — `terminal/daily/2026_10_03_pickle_pit_boss_tip_the_oldest_barrel_before_the_brine_blows.py`
 - **2026-10-02** — Lumen Lichen: Cover the garden wall before the gardener scrapes — `terminal/daily/2026_10_02_lumen_lichen_cover_the_garden_wall_before_the_gardener_scrapes.py`
 - **2026-10-01** — Paper Pilots: Kite-duel the Windwizard on the gustberry meadow — `terminal/daily/2026_10_01_paper_pilots_kite_duel_the_windwizard_on_the_gustberry_meadow.py`
