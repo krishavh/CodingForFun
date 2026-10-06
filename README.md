@@ -114,3 +114,5 @@ Updated today's drop: **Lumen Lichen: Cover the garden wall before the gardener 
 Updated today's drop: **Pickle Pit Boss: Tip the oldest barrel before the brine blows** — 2026-10-03 — `terminal/daily/2026_10_03_pickle_pit_boss_tip_the_oldest_barrel_before_the_brine_blows.py`
 
 Updated today's drop: **Sushi Sprint: Match the pairs before the patience runs dry** — 2026-10-04 — `terminal/daily/2026_10_04_sushi_sprint_match_the_pairs_before_the_patience_runs_dry.py`
+
+Updated today's drop: **Moth Motel: Keep the lamps low before the moths fly too close** — 2026-10-06 — `terminal/daily/2026_10_06_moth_motel_keep_the_lamps_low_before_the_moths_fly_too_close.py`

@@ -1,3 +1,4 @@
+- **2026-10-06** — Moth Motel: Keep the lamps low before the moths fly too close — `terminal/daily/2026_10_06_moth_motel_keep_the_lamps_low_before_the_moths_fly_too_close.py`
 - **2026-10-04** — Sushi Sprint: Match the pairs before the patience runs dry — `terminal/daily/2026_10_04_sushi_sprint_match_the_pairs_before_the_patience_runs_dry.py`
 - **2026-10-03** — Pickle Pit Boss: Tip the oldest barrel before the brine blows — `terminal/daily/2026_10_03_pickle_pit_boss_tip_the_oldest_barrel_before_the_brine_blows.py`
 - **2026-10-02** — Lumen Lichen: Cover the garden wall before the gardener scrapes — `terminal/daily/2026_10_02_lumen_lichen_cover_the_garden_wall_before_the_gardener_scrapes.py`
