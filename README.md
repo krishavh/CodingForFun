@@ -118,3 +118,5 @@ Updated today's drop: **Sushi Sprint: Match the pairs before the patience runs d
 Updated today's drop: **Moth Motel: Keep the lamps low before the moths fly too close** — 2026-10-06 — `terminal/daily/2026_10_06_moth_motel_keep_the_lamps_low_before_the_moths_fly_too_close.py`
 
 Updated today's drop: **Taffy Taffy Train: Keep the candy rolling before the tracks twist** — 2026-10-07 — `terminal/daily/2026_10_07_taffy_taffy_train_keep_the_candy_rolling_before_the_tracks_twist.py`
+
+Updated today's drop: **Kelp Forest Drift: Ride the current before the tide strands you** — 2026-10-08 — `terminal/daily/2026_10_08_kelp_forest_drift_ride_the_current_before_the_tide_strands_you.py`

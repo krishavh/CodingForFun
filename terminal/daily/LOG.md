@@ -1,3 +1,4 @@
+- **2026-10-08** — Kelp Forest Drift: Ride the current before the tide strands you — `terminal/daily/2026_10_08_kelp_forest_drift_ride_the_current_before_the_tide_strands_you.py`
 - **2026-10-07** — Taffy Taffy Train: Keep the candy rolling before the tracks twist — `terminal/daily/2026_10_07_taffy_taffy_train_keep_the_candy_rolling_before_the_tracks_twist.py`
 - **2026-10-06** — Moth Motel: Keep the lamps low before the moths fly too close — `terminal/daily/2026_10_06_moth_motel_keep_the_lamps_low_before_the_moths_fly_too_close.py`
 - **2026-10-04** — Sushi Sprint: Match the pairs before the patience runs dry — `terminal/daily/2026_10_04_sushi_sprint_match_the_pairs_before_the_patience_runs_dry.py`
