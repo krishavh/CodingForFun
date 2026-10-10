@@ -120,3 +120,5 @@ Updated today's drop: **Moth Motel: Keep the lamps low before the moths fly too 
 Updated today's drop: **Taffy Taffy Train: Keep the candy rolling before the tracks twist** — 2026-10-07 — `terminal/daily/2026_10_07_taffy_taffy_train_keep_the_candy_rolling_before_the_tracks_twist.py`
 
 Updated today's drop: **Kelp Forest Drift: Ride the current before the tide strands you** — 2026-10-08 — `terminal/daily/2026_10_08_kelp_forest_drift_ride_the_current_before_the_tide_strands_you.py`
+
+Updated today's drop: **Graveyard Shift Gong: Ring the cracked bell before the ghosts get restless** — 2026-10-10 — `terminal/daily/2026_10_10_graveyard_shift_gong_ring_the_cracked_bell_before_the_ghosts_get_restless.py`
