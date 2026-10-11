@@ -1,3 +1,4 @@
+- **2026-10-11** — Comet Coin Corner: Snag the comet coin before the orbit shuts you out — `terminal/daily/2026_10_11_comet_coin_corner_snag_the_comet_coin_before_the_orbit_shuts_you_out.py`
 - **2026-10-10** — Graveyard Shift Gong: Ring the cracked bell before the ghosts get restless — `terminal/daily/2026_10_10_graveyard_shift_gong_ring_the_cracked_bell_before_the_ghosts_get_restless.py`
 - **2026-10-08** — Kelp Forest Drift: Ride the current before the tide strands you — `terminal/daily/2026_10_08_kelp_forest_drift_ride_the_current_before_the_tide_strands_you.py`
 - **2026-10-07** — Taffy Taffy Train: Keep the candy rolling before the tracks twist — `terminal/daily/2026_10_07_taffy_taffy_train_keep_the_candy_rolling_before_the_tracks_twist.py`
