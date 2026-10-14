@@ -126,3 +126,5 @@ Updated today's drop: **Graveyard Shift Gong: Ring the cracked bell before the g
 Updated today's drop: **Comet Coin Corner: Snag the comet coin before the orbit shuts you out** — 2026-10-11 — `terminal/daily/2026_10_11_comet_coin_corner_snag_the_comet_coin_before_the_orbit_shuts_you_out.py`
 
 Updated today's drop: **Lantern Ascent: Ride the thermals before the gas runs dry** — 2026-10-12 — `terminal/daily/2026_10_12_lantern_ascent_ride_the_thermals_before_the_gas_runs_dry.py`
+
+Updated today's drop: **Mushroom Spores: Ride the gusts before the vigor wilts** — 2026-10-14 — `terminal/daily/2026_10_14_mushroom_spores_ride_the_gusts_before_the_vigor_wilts.py`
