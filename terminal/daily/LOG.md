@@ -1,3 +1,4 @@
+- **2026-10-15** — Plot Twist Potion: Brew the bottle before the shelf spills — `terminal/daily/2026_10_15_plot_twist_potion_brew_the_bottle_before_the_shelf_spills.py`
 - **2026-10-14** — Mushroom Spores: Ride the gusts before the vigor wilts — `terminal/daily/2026_10_14_mushroom_spores_ride_the_gusts_before_the_vigor_wilts.py`
 - **2026-10-12** — Lantern Ascent: Ride the thermals before the gas runs dry — `terminal/daily/2026_10_12_lantern_ascent_ride_the_thermals_before_the_gas_runs_dry.py`
 - **2026-10-11** — Comet Coin Corner: Snag the comet coin before the orbit shuts you out — `terminal/daily/2026_10_11_comet_coin_corner_snag_the_comet_coin_before_the_orbit_shuts_you_out.py`
