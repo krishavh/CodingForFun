@@ -130,3 +130,5 @@ Updated today's drop: **Lantern Ascent: Ride the thermals before the gas runs dr
 Updated today's drop: **Mushroom Spores: Ride the gusts before the vigor wilts** — 2026-10-14 — `terminal/daily/2026_10_14_mushroom_spores_ride_the_gusts_before_the_vigor_wilts.py`
 
 Updated today's drop: **Plot Twist Potion: Brew the bottle before the shelf spills** — 2026-10-15 — `terminal/daily/2026_10_15_plot_twist_potion_brew_the_bottle_before_the_shelf_spills.py`
+
+Updated today's drop: **Noodle Wobble Wok: Stir the dragon before the broth boils over** — 2026-10-17 — `terminal/daily/2026_10_17_noodle_wobble_wok_stir_the_dragon_before_the_broth_boils_over.py`
