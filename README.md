@@ -134,3 +134,5 @@ Updated today's drop: **Plot Twist Potion: Brew the bottle before the shelf spil
 Updated today's drop: **Noodle Wobble Wok: Stir the dragon before the broth boils over** — 2026-10-17 — `terminal/daily/2026_10_17_noodle_wobble_wok_stir_the_dragon_before_the_broth_boils_over.py`
 
 Updated today's drop: **Tumblewing Transit: Fold the fleet before the fleet folds** — 2026-10-18 — `terminal/daily/2026_10_18_tumblewing_transit_fold_the_fleet_before_the_fleet_folds.py`
+
+Updated today's drop: **Lantern Moth: Chase the glow before the dusk runs dry** — 2026-10-19 — `terminal/daily/2026_10_19_lantern_moth_chase_the_glow_before_the_dusk_runs_dry.py`

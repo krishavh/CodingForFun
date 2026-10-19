@@ -1,3 +1,4 @@
+- **2026-10-19** — Lantern Moth: Chase the glow before the dusk runs dry — `terminal/daily/2026_10_19_lantern_moth_chase_the_glow_before_the_dusk_runs_dry.py`
 - **2026-10-18** — Tumblewing Transit: Fold the fleet before the fleet folds — `terminal/daily/2026_10_18_tumblewing_transit_fold_the_fleet_before_the_fleet_folds.py`
 - **2026-10-17** — Noodle Wobble Wok: Stir the dragon before the broth boils over — `terminal/daily/2026_10_17_noodle_wobble_wok_stir_the_dragon_before_the_broth_boils_over.py`
 - **2026-10-15** — Plot Twist Potion: Brew the bottle before the shelf spills — `terminal/daily/2026_10_15_plot_twist_potion_brew_the_bottle_before_the_shelf_spills.py`
