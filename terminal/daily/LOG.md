@@ -1,3 +1,4 @@
+- **2026-10-23** — Lantern Ferry: Pole the Night Swamp: Ferry sleepy ghosts between docks before dawn — `terminal/daily/2026_10_23_lantern_ferry_pole_the_night_swamp_ferry_sleepy_ghosts_between_docks_before_dawn.py`
 - **2026-10-22** — Tidal Verse: Compose the wave before the shore slips: Catch driftwood words and lay lines before the tide takes the page — `terminal/daily/2026_10_22_tidal_verse_compose_the_wave_before_the_shore_slips_catch_driftwood_words_and_lay_lines_before_the_tide_takes_the_page.py`
 - **2026-10-20** — Echo Garden: Grow the chord before the dusk falls: plant notes that ring, stand in the sound — `terminal/daily/2026_10_20_echo_garden_grow_the_chord_before_the_dusk_falls_plant_notes_that_ring_stand_in_the_sound.py`
 - **2026-10-19** — Lantern Moth: Chase the glow before the dusk runs dry — `terminal/daily/2026_10_19_lantern_moth_chase_the_glow_before_the_dusk_runs_dry.py`
