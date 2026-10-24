@@ -142,3 +142,5 @@ Updated today's drop: **Echo Garden: Grow the chord before the dusk falls: plant
 Updated today's drop: **Tidal Verse: Compose the wave before the shore slips: Catch driftwood words and lay lines before the tide takes the page** — 2026-10-22 — `terminal/daily/2026_10_22_tidal_verse_compose_the_wave_before_the_shore_slips_catch_driftwood_words_and_lay_lines_before_the_tide_takes_the_page.py`
 
 Updated today's drop: **Lantern Ferry: Pole the Night Swamp: Ferry sleepy ghosts between docks before dawn** — 2026-10-23 — `terminal/daily/2026_10_23_lantern_ferry_pole_the_night_swamp_ferry_sleepy_ghosts_between_docks_before_dawn.py`
+
+Updated today's drop: **Glasshouse Greenhouse: Catch the warm rain before the frost snips the blooms** — 2026-10-24 — `terminal/daily/2026_10_24_glasshouse_greenhouse_catch_the_warm_rain_before_the_frost_snips_the_blooms.py`
