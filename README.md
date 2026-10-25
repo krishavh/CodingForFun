@@ -144,3 +144,5 @@ Updated today's drop: **Tidal Verse: Compose the wave before the shore slips: Ca
 Updated today's drop: **Lantern Ferry: Pole the Night Swamp: Ferry sleepy ghosts between docks before dawn** — 2026-10-23 — `terminal/daily/2026_10_23_lantern_ferry_pole_the_night_swamp_ferry_sleepy_ghosts_between_docks_before_dawn.py`
 
 Updated today's drop: **Glasshouse Greenhouse: Catch the warm rain before the frost snips the blooms** — 2026-10-24 — `terminal/daily/2026_10_24_glasshouse_greenhouse_catch_the_warm_rain_before_the_frost_snips_the_blooms.py`
+
+Updated today's drop: **Moonlight Marionette: Cut the strings before the stage goes dark** — 2026-10-25 — `terminal/daily/2026_10_25_moonlight_marionette_cut_the_strings_before_the_stage_goes_dark.py`
