@@ -1,3 +1,4 @@
+- **2026-10-26** — Kelp Forest Dive: Sink with the bubbles, grab pearls before your air runs out — `terminal/daily/2026_10_26_kelp_forest_dive_sink_with_the_bubbles_grab_pearls_before_your_air_runs_out.py`
 - **2026-10-25** — Moonlight Marionette: Cut the strings before the stage goes dark — `terminal/daily/2026_10_25_moonlight_marionette_cut_the_strings_before_the_stage_goes_dark.py`
 - **2026-10-24** — Glasshouse Greenhouse: Catch the warm rain before the frost snips the blooms — `terminal/daily/2026_10_24_glasshouse_greenhouse_catch_the_warm_rain_before_the_frost_snips_the_blooms.py`
 - **2026-10-23** — Lantern Ferry: Pole the Night Swamp: Ferry sleepy ghosts between docks before dawn — `terminal/daily/2026_10_23_lantern_ferry_pole_the_night_swamp_ferry_sleepy_ghosts_between_docks_before_dawn.py`
