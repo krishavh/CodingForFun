@@ -148,3 +148,5 @@ Updated today's drop: **Glasshouse Greenhouse: Catch the warm rain before the fr
 Updated today's drop: **Moonlight Marionette: Cut the strings before the stage goes dark** — 2026-10-25 — `terminal/daily/2026_10_25_moonlight_marionette_cut_the_strings_before_the_stage_goes_dark.py`
 
 Updated today's drop: **Kelp Forest Dive: Sink with the bubbles, grab pearls before your air runs out** — 2026-10-26 — `terminal/daily/2026_10_26_kelp_forest_dive_sink_with_the_bubbles_grab_pearls_before_your_air_runs_out.py`
+
+Updated today's drop: **Ember Cellar: Fan the coals and roast the marshmallows before the pit goes cold** — 2026-10-28 — `terminal/daily/2026_10_28_ember_cellar_fan_the_coals_and_roast_the_marshmallows_before_the_pit_goes_cold.py`
