@@ -1,3 +1,4 @@
+- **2026-10-29** — Glasswing Aviary: Flutter up the glass tower before dusk runs out — `terminal/daily/2026_10_29_glasswing_aviary_flutter_up_the_glass_tower_before_dusk_runs_out.py`
 - **2026-10-28** — Ember Cellar: Fan the coals and roast the marshmallows before the pit goes cold — `terminal/daily/2026_10_28_ember_cellar_fan_the_coals_and_roast_the_marshmallows_before_the_pit_goes_cold.py`
 - **2026-10-26** — Kelp Forest Dive: Sink with the bubbles, grab pearls before your air runs out — `terminal/daily/2026_10_26_kelp_forest_dive_sink_with_the_bubbles_grab_pearls_before_your_air_runs_out.py`
 - **2026-10-25** — Moonlight Marionette: Cut the strings before the stage goes dark — `terminal/daily/2026_10_25_moonlight_marionette_cut_the_strings_before_the_stage_goes_dark.py`
