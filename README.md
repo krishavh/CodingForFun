@@ -154,3 +154,5 @@ Updated today's drop: **Ember Cellar: Fan the coals and roast the marshmallows b
 Updated today's drop: **Glasswing Aviary: Flutter up the glass tower before dusk runs out** — 2026-10-29 — `terminal/daily/2026_10_29_glasswing_aviary_flutter_up_the_glass_tower_before_dusk_runs_out.py`
 
 Updated today's drop: **Cinder Drummer: Type the falling words and keep the bonfire roaring before the beat burns out** — 2026-10-30 — `terminal/daily/2026_10_30_cinder_drummer_type_the_falling_words_and_keep_the_bonfire_roaring_before_the_beat_burns_out.py`
+
+Updated today's drop: **Fossil Quarry: Chisel the shale, unearth the dino bones before the cave-in** — 2026-10-31 — `terminal/daily/2026_10_31_fossil_quarry_chisel_the_shale_unearth_the_dino_bones_before_the_cave_in.py`
