@@ -156,3 +156,5 @@ Updated today's drop: **Glasswing Aviary: Flutter up the glass tower before dusk
 Updated today's drop: **Cinder Drummer: Type the falling words and keep the bonfire roaring before the beat burns out** — 2026-10-30 — `terminal/daily/2026_10_30_cinder_drummer_type_the_falling_words_and_keep_the_bonfire_roaring_before_the_beat_burns_out.py`
 
 Updated today's drop: **Fossil Quarry: Chisel the shale, unearth the dino bones before the cave-in** — 2026-10-31 — `terminal/daily/2026_10_31_fossil_quarry_chisel_the_shale_unearth_the_dino_bones_before_the_cave_in.py`
+
+Updated today's drop: **Bubble Parade: Blow word-bubbles to lift your balloon over the cactus desert** — 2026-11-01 — `terminal/daily/2026_11_01_bubble_parade_blow_word_bubbles_to_lift_your_balloon_over_the_cactus_desert.py`

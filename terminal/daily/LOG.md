@@ -1,3 +1,4 @@
+- **2026-11-01** — Bubble Parade: Blow word-bubbles to lift your balloon over the cactus desert — `terminal/daily/2026_11_01_bubble_parade_blow_word_bubbles_to_lift_your_balloon_over_the_cactus_desert.py`
 - **2026-10-31** — Fossil Quarry: Chisel the shale, unearth the dino bones before the cave-in — `terminal/daily/2026_10_31_fossil_quarry_chisel_the_shale_unearth_the_dino_bones_before_the_cave_in.py`
 - **2026-10-30** — Cinder Drummer: Type the falling words and keep the bonfire roaring before the beat burns out — `terminal/daily/2026_10_30_cinder_drummer_type_the_falling_words_and_keep_the_bonfire_roaring_before_the_beat_burns_out.py`
 - **2026-10-29** — Glasswing Aviary: Flutter up the glass tower before dusk runs out — `terminal/daily/2026_10_29_glasswing_aviary_flutter_up_the_glass_tower_before_dusk_runs_out.py`
