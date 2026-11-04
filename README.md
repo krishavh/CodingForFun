@@ -160,3 +160,5 @@ Updated today's drop: **Fossil Quarry: Chisel the shale, unearth the dino bones 
 Updated today's drop: **Bubble Parade: Blow word-bubbles to lift your balloon over the cactus desert** — 2026-11-01 — `terminal/daily/2026_11_01_bubble_parade_blow_word_bubbles_to_lift_your_balloon_over_the_cactus_desert.py`
 
 Updated today's drop: **Tide Pool Tap: Skip stones across the tide pools at sunset** — 2026-11-03 — `terminal/daily/2026_11_03_tide_pool_tap_skip_stones_across_the_tide_pools_at_sunset.py`
+
+Updated today's drop: **Lantern Flight: Light the dark lamps before your oil burns out** — 2026-11-04 — `terminal/daily/2026_11_04_lantern_flight_light_the_dark_lamps_before_your_oil_burns_out.py`
