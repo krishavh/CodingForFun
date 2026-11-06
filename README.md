@@ -162,3 +162,5 @@ Updated today's drop: **Bubble Parade: Blow word-bubbles to lift your balloon ov
 Updated today's drop: **Tide Pool Tap: Skip stones across the tide pools at sunset** — 2026-11-03 — `terminal/daily/2026_11_03_tide_pool_tap_skip_stones_across_the_tide_pools_at_sunset.py`
 
 Updated today's drop: **Lantern Flight: Light the dark lamps before your oil burns out** — 2026-11-04 — `terminal/daily/2026_11_04_lantern_flight_light_the_dark_lamps_before_your_oil_burns_out.py`
+
+Updated today's drop: **Moth Melody: Play night flutes to lure moths to your lantern** — 2026-11-06 — `terminal/daily/2026_11_06_moth_melody_play_night_flutes_to_lure_moths_to_your_lantern.py`

@@ -1,3 +1,4 @@
+- **2026-11-06** — Moth Melody: Play night flutes to lure moths to your lantern — `terminal/daily/2026_11_06_moth_melody_play_night_flutes_to_lure_moths_to_your_lantern.py`
 - **2026-11-04** — Lantern Flight: Light the dark lamps before your oil burns out — `terminal/daily/2026_11_04_lantern_flight_light_the_dark_lamps_before_your_oil_burns_out.py`
 - **2026-11-03** — Tide Pool Tap: Skip stones across the tide pools at sunset — `terminal/daily/2026_11_03_tide_pool_tap_skip_stones_across_the_tide_pools_at_sunset.py`
 - **2026-11-01** — Bubble Parade: Blow word-bubbles to lift your balloon over the cactus desert — `terminal/daily/2026_11_01_bubble_parade_blow_word_bubbles_to_lift_your_balloon_over_the_cactus_desert.py`
