@@ -1,3 +1,4 @@
+- **2026-11-07** — Ember Orchard: Graft the Twigs and Grow Your Tree Before Winter — `terminal/daily/2026_11_07_ember_orchard_graft_the_twigs_and_grow_your_tree_before_winter.py`
 - **2026-11-06** — Moth Melody: Play night flutes to lure moths to your lantern — `terminal/daily/2026_11_06_moth_melody_play_night_flutes_to_lure_moths_to_your_lantern.py`
 - **2026-11-04** — Lantern Flight: Light the dark lamps before your oil burns out — `terminal/daily/2026_11_04_lantern_flight_light_the_dark_lamps_before_your_oil_burns_out.py`
 - **2026-11-03** — Tide Pool Tap: Skip stones across the tide pools at sunset — `terminal/daily/2026_11_03_tide_pool_tap_skip_stones_across_the_tide_pools_at_sunset.py`
