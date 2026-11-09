@@ -1,3 +1,4 @@
+- **2026-11-09** — Glass Greenhouse: Mist the seedlings before the sun bakes them — `terminal/daily/2026_11_09_glass_greenhouse_mist_the_seedlings_before_the_sun_bakes_them.py`
 - **2026-11-08** — Signal Barn: Tune the Antenna to Catch the Radio Foxes: Beam the dark prairie and dig for hidden radio foxes — `terminal/daily/2026_11_08_signal_barn_tune_the_antenna_to_catch_the_radio_foxes_beam_the_dark_prairie_and_dig_for_hidden_radio_foxes.py`
 - **2026-11-07** — Ember Orchard: Graft the Twigs and Grow Your Tree Before Winter — `terminal/daily/2026_11_07_ember_orchard_graft_the_twigs_and_grow_your_tree_before_winter.py`
 - **2026-11-06** — Moth Melody: Play night flutes to lure moths to your lantern — `terminal/daily/2026_11_06_moth_melody_play_night_flutes_to_lure_moths_to_your_lantern.py`
