@@ -170,3 +170,5 @@ Updated today's drop: **Ember Orchard: Graft the Twigs and Grow Your Tree Before
 Updated today's drop: **Signal Barn: Tune the Antenna to Catch the Radio Foxes: Beam the dark prairie and dig for hidden radio foxes** — 2026-11-08 — `terminal/daily/2026_11_08_signal_barn_tune_the_antenna_to_catch_the_radio_foxes_beam_the_dark_prairie_and_dig_for_hidden_radio_foxes.py`
 
 Updated today's drop: **Glass Greenhouse: Mist the seedlings before the sun bakes them** — 2026-11-09 — `terminal/daily/2026_11_09_glass_greenhouse_mist_the_seedlings_before_the_sun_bakes_them.py`
+
+Updated today's drop: **Tide Pool Dash: Scoop the critters before the tide rolls in** — 2026-11-10 — `terminal/daily/2026_11_10_tide_pool_dash_scoop_the_critters_before_the_tide_rolls_in.py`
