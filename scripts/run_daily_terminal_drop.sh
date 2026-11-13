@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# RETIRED: the daily drop is published with scripts/publish_daily.py (one game per day, checked).
+# This old wrapper made a template game with its own name and reported "pushed" even when the push failed.
+echo "run_daily_terminal_drop.sh is retired. Use: python3 scripts/publish_daily.py <game.py> \"<Title>\" \"<Subtitle>\"" >&2
+exit 1
 set -uo pipefail
 
 export TZ=America/Los_Angeles
