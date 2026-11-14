@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-13 — Sakura Snip: Trim the dead branches, spare the green (`terminal/daily/2026_11_13_sakura_snip_trim_the_dead_branches_spare_the_green.py`)
+Latest: 2026-11-14 — Dino Dig: Find five bones before the dig fund runs dry (`terminal/daily/2026_11_14_dino_dig_find_five_bones_before_the_dig_fund_runs_dry.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
