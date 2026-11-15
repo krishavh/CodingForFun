@@ -1,3 +1,4 @@
+- **2026-11-15** — Penguin Slide: Glide across the ice, eat every fish — `terminal/daily/2026_11_15_penguin_slide_glide_across_the_ice_eat_every_fish.py`
 - **2026-11-14** — Dino Dig: Find five bones before the dig fund runs dry — `terminal/daily/2026_11_14_dino_dig_find_five_bones_before_the_dig_fund_runs_dry.py`
 - **2026-11-13** — Sakura Snip: Trim the dead branches, spare the green — `terminal/daily/2026_11_13_sakura_snip_trim_the_dead_branches_spare_the_green.py`
 - **2026-11-12** — Moth Lantern: Woo the sleepy moths to your glow before dawn — `terminal/daily/2026_11_12_moth_lantern_woo_the_sleepy_moths_to_your_glow_before_dawn.py`

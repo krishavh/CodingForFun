@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-14 — Dino Dig: Find five bones before the dig fund runs dry (`terminal/daily/2026_11_14_dino_dig_find_five_bones_before_the_dig_fund_runs_dry.py`)
+Latest: 2026-11-15 — Penguin Slide: Glide across the ice, eat every fish (`terminal/daily/2026_11_15_penguin_slide_glide_across_the_ice_eat_every_fish.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
