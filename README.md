@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-15 — Penguin Slide: Glide across the ice, eat every fish (`terminal/daily/2026_11_15_penguin_slide_glide_across_the_ice_eat_every_fish.py`)
+Latest: 2026-11-16 — Moonlight Sniper: Pop the glow balloons in the dark (`terminal/daily/2026_11_16_moonlight_sniper_pop_the_glow_balloons_in_the_dark.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
