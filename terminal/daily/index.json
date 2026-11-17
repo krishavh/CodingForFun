@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-17",
+    "title": "Deep Sea Sonar: Find the wrecks with your pings",
+    "file": "terminal/daily/2026_11_17_deep_sea_sonar_find_the_wrecks_with_your_pings.py",
+    "public_file": "daily/2026_11_17_deep_sea_sonar_find_the_wrecks_with_your_pings.py"
+  },
+  {
     "date": "2026-11-16",
     "title": "Moonlight Sniper: Pop the glow balloons in the dark",
     "file": "terminal/daily/2026_11_16_moonlight_sniper_pop_the_glow_balloons_in_the_dark.py",

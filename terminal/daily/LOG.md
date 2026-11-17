@@ -1,3 +1,4 @@
+- **2026-11-17** — Deep Sea Sonar: Find the wrecks with your pings — `terminal/daily/2026_11_17_deep_sea_sonar_find_the_wrecks_with_your_pings.py`
 - **2026-11-16** — Moonlight Sniper: Pop the glow balloons in the dark — `terminal/daily/2026_11_16_moonlight_sniper_pop_the_glow_balloons_in_the_dark.py`
 - **2026-11-15** — Penguin Slide: Glide across the ice, eat every fish — `terminal/daily/2026_11_15_penguin_slide_glide_across_the_ice_eat_every_fish.py`
 - **2026-11-14** — Dino Dig: Find five bones before the dig fund runs dry — `terminal/daily/2026_11_14_dino_dig_find_five_bones_before_the_dig_fund_runs_dry.py`

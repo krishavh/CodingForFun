@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-16 — Moonlight Sniper: Pop the glow balloons in the dark (`terminal/daily/2026_11_16_moonlight_sniper_pop_the_glow_balloons_in_the_dark.py`)
+Latest: 2026-11-17 — Deep Sea Sonar: Find the wrecks with your pings (`terminal/daily/2026_11_17_deep_sea_sonar_find_the_wrecks_with_your_pings.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
