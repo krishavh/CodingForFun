@@ -1,3 +1,4 @@
+- **2026-11-18** — Cinder Circus: Keep the flames dancing on the high wire — `terminal/daily/2026_11_18_cinder_circus_keep_the_flames_dancing_on_the_high_wire.py`
 - **2026-11-17** — Deep Sea Sonar: Find the wrecks with your pings — `terminal/daily/2026_11_17_deep_sea_sonar_find_the_wrecks_with_your_pings.py`
 - **2026-11-16** — Moonlight Sniper: Pop the glow balloons in the dark — `terminal/daily/2026_11_16_moonlight_sniper_pop_the_glow_balloons_in_the_dark.py`
 - **2026-11-15** — Penguin Slide: Glide across the ice, eat every fish — `terminal/daily/2026_11_15_penguin_slide_glide_across_the_ice_eat_every_fish.py`
