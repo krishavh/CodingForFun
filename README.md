@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-18 — Cinder Circus: Keep the flames dancing on the high wire (`terminal/daily/2026_11_18_cinder_circus_keep_the_flames_dancing_on_the_high_wire.py`)
+Latest: 2026-11-19 — Lighthouse Keeper: Guide the lost ships past the rocks (`terminal/daily/2026_11_19_lighthouse_keeper_guide_the_lost_ships_past_the_rocks.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
