@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-19 — Lighthouse Keeper: Guide the lost ships past the rocks (`terminal/daily/2026_11_19_lighthouse_keeper_guide_the_lost_ships_past_the_rocks.py`)
+Latest: 2026-11-20 — Gear Grinder: Catch the falling gears before they jam: Slide your tray, grab gold, dodge the rust (`terminal/daily/2026_11_20_gear_grinder_catch_the_falling_gears_before_they_jam_slide_your_tray.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
