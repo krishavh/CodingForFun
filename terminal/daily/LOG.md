@@ -1,3 +1,4 @@
+- **2026-11-21** — Balloon Bazaar: Pump for coins, bank before the POP — `terminal/daily/2026_11_21_balloon_bazaar_pump_for_coins_bank_before_the_pop.py`
 - **2026-11-20** — Gear Grinder: Catch the falling gears before they jam: Slide your tray, grab gold, dodge the rust — `terminal/daily/2026_11_20_gear_grinder_catch_the_falling_gears_before_they_jam_slide_your_tray.py`
 - **2026-11-19** — Lighthouse Keeper: Guide the lost ships past the rocks — `terminal/daily/2026_11_19_lighthouse_keeper_guide_the_lost_ships_past_the_rocks.py`
 - **2026-11-18** — Cinder Circus: Keep the flames dancing on the high wire — `terminal/daily/2026_11_18_cinder_circus_keep_the_flames_dancing_on_the_high_wire.py`
