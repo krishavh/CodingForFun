@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-22",
+    "title": "Lantern Loop: Escape the maze before the light burns out",
+    "file": "terminal/daily/2026_11_22_lantern_loop_escape_the_maze_before_the_light_burns_out.py",
+    "public_file": "daily/2026_11_22_lantern_loop_escape_the_maze_before_the_light_burns_out.py"
+  },
+  {
     "date": "2026-11-21",
     "title": "Balloon Bazaar: Pump for coins, bank before the POP",
     "file": "terminal/daily/2026_11_21_balloon_bazaar_pump_for_coins_bank_before_the_pop.py",

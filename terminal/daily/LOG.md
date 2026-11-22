@@ -1,3 +1,4 @@
+- **2026-11-22** — Lantern Loop: Escape the maze before the light burns out — `terminal/daily/2026_11_22_lantern_loop_escape_the_maze_before_the_light_burns_out.py`
 - **2026-11-21** — Balloon Bazaar: Pump for coins, bank before the POP — `terminal/daily/2026_11_21_balloon_bazaar_pump_for_coins_bank_before_the_pop.py`
 - **2026-11-20** — Gear Grinder: Catch the falling gears before they jam: Slide your tray, grab gold, dodge the rust — `terminal/daily/2026_11_20_gear_grinder_catch_the_falling_gears_before_they_jam_slide_your_tray.py`
 - **2026-11-19** — Lighthouse Keeper: Guide the lost ships past the rocks — `terminal/daily/2026_11_19_lighthouse_keeper_guide_the_lost_ships_past_the_rocks.py`
