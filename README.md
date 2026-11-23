@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-22 — Lantern Loop: Escape the maze before the light burns out (`terminal/daily/2026_11_22_lantern_loop_escape_the_maze_before_the_light_burns_out.py`)
+Latest: 2026-11-23 — Sap Siphon: Tap the maples before the bucket overflows (`terminal/daily/2026_11_23_sap_siphon_tap_the_maples_before_the_bucket_overflows.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
