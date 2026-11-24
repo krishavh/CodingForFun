@@ -1,3 +1,4 @@
+- **2026-11-24** — Tidepool Truce: Trade shells with the crabs before the tide turns — `terminal/daily/2026_11_24_tidepool_truce_trade_shells_with_the_crabs_before_the_tide_turns.py`
 - **2026-11-23** — Sap Siphon: Tap the maples before the bucket overflows — `terminal/daily/2026_11_23_sap_siphon_tap_the_maples_before_the_bucket_overflows.py`
 - **2026-11-22** — Lantern Loop: Escape the maze before the light burns out — `terminal/daily/2026_11_22_lantern_loop_escape_the_maze_before_the_light_burns_out.py`
 - **2026-11-21** — Balloon Bazaar: Pump for coins, bank before the POP — `terminal/daily/2026_11_21_balloon_bazaar_pump_for_coins_bank_before_the_pop.py`

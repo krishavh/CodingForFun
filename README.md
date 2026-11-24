@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-23 — Sap Siphon: Tap the maples before the bucket overflows (`terminal/daily/2026_11_23_sap_siphon_tap_the_maples_before_the_bucket_overflows.py`)
+Latest: 2026-11-24 — Tidepool Truce: Trade shells with the crabs before the tide turns (`terminal/daily/2026_11_24_tidepool_truce_trade_shells_with_the_crabs_before_the_tide_turns.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
