@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-24 — Tidepool Truce: Trade shells with the crabs before the tide turns (`terminal/daily/2026_11_24_tidepool_truce_trade_shells_with_the_crabs_before_the_tide_turns.py`)
+Latest: 2026-11-25 — Gravity Garden: Catch stardrops and water seeds before night falls (`terminal/daily/2026_11_25_gravity_garden_catch_stardrops_and_water_seeds_before_night_falls.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->
