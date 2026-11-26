@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-25 — Gravity Garden: Catch stardrops and water seeds before night falls (`terminal/daily/2026_11_25_gravity_garden_catch_stardrops_and_water_seeds_before_night_falls.py`)
+Latest: 2026-11-26 — Lighthouse Keeper: Guide ships home with your steady beam (`terminal/daily/2026_11_26_lighthouse_keeper_guide_ships_home_with_your_steady_beam.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

@@ -1,3 +1,4 @@
+- **2026-11-26** — Lighthouse Keeper: Guide ships home with your steady beam — `terminal/daily/2026_11_26_lighthouse_keeper_guide_ships_home_with_your_steady_beam.py`
 - **2026-11-25** — Gravity Garden: Catch stardrops and water seeds before night falls — `terminal/daily/2026_11_25_gravity_garden_catch_stardrops_and_water_seeds_before_night_falls.py`
 - **2026-11-24** — Tidepool Truce: Trade shells with the crabs before the tide turns — `terminal/daily/2026_11_24_tidepool_truce_trade_shells_with_the_crabs_before_the_tide_turns.py`
 - **2026-11-23** — Sap Siphon: Tap the maples before the bucket overflows — `terminal/daily/2026_11_23_sap_siphon_tap_the_maples_before_the_bucket_overflows.py`
