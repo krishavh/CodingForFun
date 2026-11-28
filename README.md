@@ -81,6 +81,6 @@ python3 terminal/dungeon_dash.py
 **Belltower Siege: Wave Defense** — 2026-09-14 — `terminal/daily/2026_09_14_belltower_siege_wave_defense.py`
 
 <!-- DAILY_DROP_START -->
-Latest: 2026-11-27 — Frost Forge: Chisel the ice before it cracks (`terminal/daily/2026_11_27_frost_forge_chisel_the_ice_before_it_cracks.py`)
+Latest: 2026-11-28 — Moth Lantern: Catch the fireflies, dodge the bites (`terminal/daily/2026_11_28_moth_lantern_catch_the_fireflies_dodge_the_bites.py`)
 See `terminal/daily/LOG.md` for history.
 <!-- DAILY_DROP_END -->

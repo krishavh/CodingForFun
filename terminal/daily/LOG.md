@@ -1,3 +1,4 @@
+- **2026-11-28** — Moth Lantern: Catch the fireflies, dodge the bites — `terminal/daily/2026_11_28_moth_lantern_catch_the_fireflies_dodge_the_bites.py`
 - **2026-11-27** — Frost Forge: Chisel the ice before it cracks — `terminal/daily/2026_11_27_frost_forge_chisel_the_ice_before_it_cracks.py`
 - **2026-11-26** — Lighthouse Keeper: Guide ships home with your steady beam — `terminal/daily/2026_11_26_lighthouse_keeper_guide_ships_home_with_your_steady_beam.py`
 - **2026-11-25** — Gravity Garden: Catch stardrops and water seeds before night falls — `terminal/daily/2026_11_25_gravity_garden_catch_stardrops_and_water_seeds_before_night_falls.py`
